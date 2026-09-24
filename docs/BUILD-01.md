@@ -18,6 +18,9 @@ Drizzle ORM, Vercel, PostgreSQL MVP search, and a standardized VENDOR ingestion 
 - Supabase browser/server client helpers; no login or admin permissions enabled yet.
 - Local vendor import preflight with pending review, strict price/identity checks,
   duplicate SKU detection, variant preservation, and sanitized CLI reports.
+- Local review-packet preparation retains original rows, proposals, evidence gaps,
+  source fingerprints, and initial history without overwriting existing packets.
+  The authenticated Admin Review Queue and corrections are still unfinished.
 
 Kenny chose local development on September 24, 2026. Paid Vercel setup is deferred.
 The import preflight adds no database writes or published catalog data.
@@ -28,7 +31,7 @@ Validated on Windows with Next.js 16.3.6 and React 19.3.0:
 
 - Production build passed.
 - Strict TypeScript check and ESLint passed.
-- All 14 local import validator and CLI tests passed; production build, TypeScript,
+- All 21 local import/review validator and CLI tests passed; production build, TypeScript,
   and ESLint rechecked successfully after adding the preflight stage.
 - Running production server: home 200, health 200 with {"status":"ok"}, admin 404.
 - Browser inspection of the home page passed.

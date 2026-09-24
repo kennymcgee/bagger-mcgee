@@ -33,6 +33,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
-    "import:preview": "node scripts/preview-import.mjs"
+    "import:preview": "node scripts/preview-import.mjs",
+    "import:review": "node scripts/prepare-review.mjs"
   }
 }

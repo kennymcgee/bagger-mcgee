@@ -51,7 +51,32 @@ exit 2 means a file/JSON/usage failure. Row 0 identifies a file-level problem.
 A mixed file is blocked as a whole; no subset is applied. The limits of 10,000 rows
 and 5 MiB are conservative local preflight limits, not vendor contract decisions.
 
-## Deliberately unfinished
+## Local review packets
+
+`pnpm import:review <local-json-file> <vendor-record-uuid>` prepares a packet in
+the git-ignored `local-imports/reviews/` directory. The vendor ID is operator
+context, never accepted from a feed row; this local tool validates its shape but
+does not look up the vendor or authenticate the operator. Use only synthetic or
+sanitized development inputs. Packets retain original row values, so they are
+private working data, not sanitized reports and must not be shared or committed.
+Git ignore rules are not access controls; protection here is the local OS account.
+
+Every item starts New, retaining original values beside a normalized proposal,
+validation issues, missing-evidence reasons, and a preparation history entry.
+Existing catalog data is explicitly unknown: there is no catalog lookup. Evidence
+starts empty. A SHA-256 fingerprint identifies the source and vendor; it does not
+verify claims. Repeating the same input for the same vendor preserves the existing
+packet rather than overwriting it. Source or vendor changes produce a new packet.
+Malformed JSON fails without creating a packet; invalid feed envelopes receive a
+file-level item. A blocked batch stays blocked, even when some rows are valid.
+
+The queue statuses follow MVP-AR3: New, In Review, Waiting on VENDOR, Resolved,
+Dismissed. They are distinct from catalog approval. There are no status-changing
+commands yet. This implements local preparation for MVP-AR1/2 and the starting
+history for MVP-AR5; it is not the authenticated Admin Review Queue. Follow
+MVP-AQ9 for material human approvals when correction workflows are implemented.
+
+## Remaining workflow
 
 Structural validation does not verify that URLs identify real items, that vendor
 claims are true, or that data is fresh. Brand/category taxonomy, fitment, vendor
