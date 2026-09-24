@@ -14,6 +14,7 @@ Drizzle ORM, Vercel, PostgreSQL MVP search, and a standardized VENDOR ingestion 
   a successful password-authenticated connection after official CA setup.
 - Drizzle schema and initial SQL generated for vendors, products, offers, and import batches.
 - Guarded development-only migration runner, with transactional constraint checks.
+- Initial development migration applied and verified on September 24, 2026.
 - Supabase browser/server client helpers; no login or admin permissions enabled yet.
 
 ## Validation
@@ -24,6 +25,9 @@ Validated on Windows with Next.js 16.3.6 and React 19.3.0:
 - Strict TypeScript check and ESLint passed.
 - Running production server: home 200, health 200 with {"status":"ok"}, admin 404.
 - Browser inspection of the home page passed.
+- Live migration report passed: all four tables have row security enabled and no
+  public grants. Negative prices, non-USD prices, unverified approved offers, and
+  duplicate vendor SKUs were rejected. All validation rows were rolled back.
 - Dependencies are pinned to the installed versions and a pnpm lockfile is included.
 
 The package manager flagged unrs-resolver and esbuild installation hooks.
@@ -35,14 +39,13 @@ metadata was unavailable in this task. No package-policy checks were disabled.
 
 ## Remaining work, in order
 
-1. Apply the initial catalog migration to development and read its live test report.
-2. Extend the minimal catalog in subsequent migrations for controlled brands,
+1. Extend the minimal catalog in subsequent migrations for controlled brands,
    categories, fitment, coupons, review queue, and audit workflows. No claims of
    completed ingestion, publishing eligibility, ranking, or freshness enforcement.
-3. Review the updated draft PR and validate a fresh install on the target host.
-4. Add Supabase session handling and server-verified admin roles. Never grant admin
+2. Review the updated draft PR and validate a fresh install on the target host.
+3. Add Supabase session handling and server-verified admin roles. Never grant admin
    from client-editable user metadata. Keep admin disabled until verified.
-5. Connect a separate preview database and create a Vercel preview. Do not deploy
+4. Connect a separate preview database and create a Vercel preview. Do not deploy
    production or apply migrations automatically during builds.
 
 Keep all .env files and credentials out of Git. Only .env.example is tracked.
