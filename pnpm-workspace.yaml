@@ -1,4 +1,5 @@
 # Prebuilt optional binaries cover the tested Windows runtime.
 # Keep this install hook disabled; do not broadly allow dependency scripts.
 allowBuilds:
+  esbuild: false
   unrs-resolver: false

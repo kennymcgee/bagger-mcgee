@@ -10,6 +10,11 @@ Drizzle ORM, Vercel, PostgreSQL MVP search, and a standardized VENDOR ingestion 
 - Health endpoint, baseline response headers, and an admin route that always denies access.
 - Environment-variable template with no credentials.
 - Existing repository README and ignore rules preserved.
+- Supabase development project created separately from Cannagram; Kenny reported
+  a successful password-authenticated connection after official CA setup.
+- Drizzle schema and initial SQL generated for vendors, products, offers, and import batches.
+- Guarded development-only migration runner, with transactional constraint checks.
+- Supabase browser/server client helpers; no login or admin permissions enabled yet.
 
 ## Validation
 
@@ -21,20 +26,20 @@ Validated on Windows with Next.js 16.3.6 and React 19.3.0:
 - Browser inspection of the home page passed.
 - Dependencies are pinned to the installed versions and a pnpm lockfile is included.
 
-The package manager initially flagged the unrs-resolver installation hook.
-Its prebuilt Windows binary works without the hook; the workspace explicitly
-keeps that hook disabled. Linux/Vercel validation remains pending. ESLint 9.39.5
+The package manager flagged unrs-resolver and esbuild installation hooks.
+Their prebuilt Windows binaries supported the checks and migration generation;
+the workspace explicitly keeps those hooks disabled. Linux/Vercel validation remains pending. ESLint 9.39.5
 is marked deprecated by the registry; review upgrading the lint toolchain before
 production. Offline reinstall could not be validated because cached registry
 metadata was unavailable in this task. No package-policy checks were disabled.
 
 ## Remaining work, in order
 
-1. Review the foundation draft PR and validate a fresh install on the target host.
-2. Guide Kenny through Supabase account/project setup. He handles authorizations,
-   credentials, costs, and business/security/architecture decisions.
-3. Implement the approved initial Drizzle schema after recovering detailed data
-   model decisions. Do not infer new product or ingestion rules from this skeleton.
+1. Apply the initial catalog migration to development and read its live test report.
+2. Extend the minimal catalog in subsequent migrations for controlled brands,
+   categories, fitment, coupons, review queue, and audit workflows. No claims of
+   completed ingestion, publishing eligibility, ranking, or freshness enforcement.
+3. Review the updated draft PR and validate a fresh install on the target host.
 4. Add Supabase session handling and server-verified admin roles. Never grant admin
    from client-editable user metadata. Keep admin disabled until verified.
 5. Connect a separate preview database and create a Vercel preview. Do not deploy
@@ -42,3 +47,16 @@ metadata was unavailable in this task. No package-policy checks were disabled.
 
 Keep all .env files and credentials out of Git. Only .env.example is tracked.
 Do not enter database credentials into this conversation.
+
+## Roadmap traceability for this slice
+
+Recovered from the approved “Review roadmap decisions” task: MVP-PM1/2 shared
+canonical products and separate offers, MVP-PM4 variant protection, MVP-CN2
+product-level OEM identity versus offer-level new/used condition, MVP-CN4
+unknown data held for review, MVP-PR3 USD only, and MVP-OH8 HTTPS vendor links.
+The `catalog_review_state` is an internal publishing gate; it does not replace
+the separately approved Admin Review Queue statuses.
+
+The development guard intentionally refuses all Vercel environments until a
+separate preview/production connection plan is configured. Secrets stay local;
+the root CA is public and was downloaded from the project's official dashboard.
