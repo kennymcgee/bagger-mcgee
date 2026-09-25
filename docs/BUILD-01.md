@@ -7,7 +7,7 @@ Drizzle ORM, Vercel, PostgreSQL MVP search, and a standardized VENDOR ingestion 
 
 - App Router and strict TypeScript configuration.
 - Responsive coming-soon page; no invented products, prices, or vendor claims.
-- Health endpoint, baseline response headers, and an admin route that always denies access.
+- Health endpoint, baseline response headers, and an admin route protected by role and MFA checks.
 - Environment-variable template with no credentials.
 - Existing repository README and ignore rules preserved.
 - Supabase development project created separately from Cannagram; Kenny reported
@@ -15,7 +15,8 @@ Drizzle ORM, Vercel, PostgreSQL MVP search, and a standardized VENDOR ingestion 
 - Drizzle schema and initial SQL generated for vendors, products, offers, and import batches.
 - Guarded development-only migration runner, with transactional constraint checks.
 - Initial development migration applied and verified on September 24, 2026.
-- Supabase browser/server client helpers; no login or admin permissions enabled yet.
+- Supabase sign-in, TOTP enrollment/verification, cookie refresh, and server-side
+  owner/reviewer guards. Owner provisioning and real Auth flow testing remain pending.
 - Local vendor import preflight with pending review, strict price/identity checks,
   duplicate SKU detection, variant preservation, and sanitized CLI reports.
 - Local review-packet preparation retains original rows, proposals, evidence gaps,
@@ -31,9 +32,11 @@ Validated on Windows with Next.js 16.3.6 and React 19.3.0:
 
 - Production build passed.
 - Strict TypeScript check and ESLint passed.
-- All 21 local import/review validator and CLI tests passed; production build, TypeScript,
+- All 27 local import/review/authorization tests passed; production build, TypeScript,
   and ESLint rechecked successfully after adding the preflight stage.
-- Running production server: home 200, health 200 with {"status":"ok"}, admin 404.
+- Running production server: home 200 and health 200 with {"status":"ok"} verified
+  during foundation setup. Current signed-out admin/verify requests redirect to
+  login; login is 200 with no-store headers. No admin data is exposed.
 - Browser inspection of the home page passed.
 - Live migration report passed: all four tables have row security enabled and no
   public grants. Negative prices, non-USD prices, unverified approved offers, and
@@ -53,8 +56,9 @@ metadata was unavailable in this task. No package-policy checks were disabled.
    categories, fitment, coupons, review queue, and audit workflows. No claims of
    completed ingestion, publishing eligibility, ranking, or freshness enforcement.
 2. Review the updated draft PR and validate a fresh install on the target host.
-3. Add Supabase session handling and server-verified admin roles. Never grant admin
-   from client-editable user metadata. Keep admin disabled until verified.
+3. Complete owner provisioning and live sign-in/MFA/refresh/revocation testing.
+   Add authenticated review operations with durable audit and sensitive-action checks.
+   Never grant admin from client-editable metadata or expose catalog writes before testing.
 4. Connect a separate preview database and create a Vercel preview. Do not deploy
    production or apply migrations automatically during builds.
 

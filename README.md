@@ -4,7 +4,7 @@ Bagger McGee — motorcycle parts price comparison platform for Harley-Davidson 
 ## BUILD-01 foundation
 
 Next.js App Router + TypeScript, with an initial Drizzle catalog schema and
-Supabase client helpers and a local vendor-feed preflight checker. Database ingestion, search, fitment, full Auth/Admin, and Vercel
+Supabase sign-in/MFA pages and local vendor-feed preflight/review tools. Database ingestion, search, fitment, full Admin workflows, and Vercel
 deployment are not yet implemented.
 
 With Node.js 22.18+ and pnpm 11.25.0 installed:
@@ -24,8 +24,9 @@ pnpm test
 pnpm start
 ```
 
-`/api/health` provides liveness only. `/admin` deliberately returns 404 until
-server-side authentication and admin-role checks are implemented. The placeholder
+`/api/health` provides liveness only. `/admin` requires a current server-verified
+administrator role and TOTP two-factor authentication. Owner setup and live Auth
+testing remain pending; see [administrator setup](docs/ADMIN-AUTH.md). The placeholder
 is marked noindex. No live products or prices are represented.
 
 See [BUILD-01 status](docs/BUILD-01.md) for validation and remaining work.
