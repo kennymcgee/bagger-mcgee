@@ -147,3 +147,4 @@ vite.config.ts.timestamp-*
 .database-migration-result.json
 local-imports/
 .next-decisions
+.next-corrections

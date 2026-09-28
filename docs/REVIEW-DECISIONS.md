@@ -21,3 +21,5 @@ saves, stale revisions, invalid inputs, and corrupt-history rejection. Productio
 build/TypeScript and ESLint passed. Live authenticated save and browser interaction
 verification awaits launch of the updated build on port 3003. Existing port 3002
 build remains untouched. Account recovery/revocation integration tests remain pending.
+
+Live verification completed September 28, 2026: authenticated Owner save, persisted status/note/reviewer history after refresh, status filtering, and temporary sample decisions passed. The synthetic integration packet and its decision were removed after verification. No vendor data or database records were changed.
