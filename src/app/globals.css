@@ -66,3 +66,4 @@ h1 em { color:var(--orange); font-style:normal; }
 footer { padding:26px 0; border-top:1px solid #343933; display:flex; justify-content:space-between; gap:16px; color:var(--muted); font-size:11px; align-items:center; }
 footer span { font-weight:bold; letter-spacing:1px; }
 @media(max-width:560px) { main { padding:0 6%; } header { padding:24px 0; } .brand { font-size:20px; } .hero { padding:60px 0; } h1 { letter-spacing:-2px; } .intro { font-size:17px; } footer { align-items:flex-start; flex-direction:column; } footer p { margin:0; } }
+.review-detail textarea { display: block; width: 100%; box-sizing: border-box; padding: 12px; margin: 8px 0 16px; background: #171c18; color: #f2ecdf; border: 1px solid #59604d; border-radius: 6px; font: inherit; } .review-detail label { display: block; margin-top: 12px; } .review-detail button:disabled { opacity: .55; cursor: not-allowed; }

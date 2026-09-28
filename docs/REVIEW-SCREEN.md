@@ -21,10 +21,11 @@ a local development reader, not a production storage or ingestion service.
 
 31 tests passed; build includes TypeScript validation and ESLint passed. The
 review component was visually checked with synthetic data using a separate,
-temporary static fixture; expanding details worked. The actual port 3002 build was then checked with an authenticated Owner session:
-real empty queue, two clearly labeled sample items, search narrowing, blocked-batch
-filtering, expanded rejected-item details, no-match results, and clearing filters
-all passed on September 28, 2026. Samples did not create database records.
+temporary static fixture; expanding details worked. The actual port 3002 build
+was then checked with an authenticated Owner session: real empty queue, two
+clearly labeled sample items, search narrowing, blocked-batch filtering,
+expanded rejected-item details, no-match results, and clearing filters all passed
+on September 28, 2026. Samples did not create database records.
 The earlier owner password and TOTP enrollment were confirmed working by Kenny's
 authenticated Owner landing screen on September 28, 2026. Recovery, session
 refresh/revocation, and complete authorization integration tests remain pending.
