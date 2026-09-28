@@ -1,16 +1,24 @@
 import { notFound, redirect } from "next/navigation";
 import { getAdminAccess } from "@/lib/auth/admin";
 import { signOut } from "./actions";
+import Link from "next/link";
+import { loadReviews, sampleReviews } from "@/lib/reviews";
+import { ReviewList } from "./review-list";
 
 export const dynamic = "force-dynamic";
-export default async function AdminPage() {
+export default async function AdminPage({ searchParams }: { searchParams: Promise<{ sample?: string }> }) {
   const access = await getAdminAccess();
   if (access.state === "denied") notFound();
   if (access.state === "signed_out") redirect("/admin/login");
   if (access.state === "mfa_required") redirect("/admin/verify");
-  return <main className="admin-shell"><p className="eyebrow">BAGGER McGEE · PRIVATE ADMIN</p>
-    <h1>Welcome back</h1><p>Signed in as {access.role === "owner" ? "Owner" : "Reviewer"}, with two-factor verification.</p>
-    <section className="notice"><p>Your review workspace is being built. Vendor review packets are currently prepared locally; there are no publishing controls here yet.</p></section>
-    <form action={signOut}><button className="secondary">Sign out</button></form>
+  const sample = (await searchParams).sample === "1";
+  const result = sample ? { cards: sampleReviews(), unavailable: 0, limited: false } : await loadReviews();
+  return <main className="admin-shell review-shell"><header className="review-header"><div><p className="eyebrow">BAGGER McGEE · PRIVATE ADMIN</p><p className="admin-note">{access.role === "owner" ? "Owner" : "Reviewer"} · Two-factor verified</p></div><form action={signOut}><button className="secondary">Sign out</button></form></header>
+    <h1>Review queue</h1><p>Inspect incoming vendor items before they enter the catalog.</p>
+    <nav className="review-nav" aria-label="Review views"><Link aria-current={!sample ? "page" : undefined} href="/admin">Your queue</Link><Link aria-current={sample ? "page" : undefined} href="/admin?sample=1">Explore sample items</Link></nav>
+    {sample && <aside className="sample-notice"><strong>Sample view — fictional data</strong><p>These items demonstrate the review screen. They are not saved to your queue or database.</p></aside>}
+    {result.unavailable > 0 && <p role="alert">{result.unavailable} review file(s) could not be read safely. The list may be incomplete; source files were left unchanged.</p>}
+    {result.limited && <p role="alert">This local view has reached its display limit. Some items are not shown.</p>}
+    <ReviewList cards={result.cards} sample={sample} />
   </main>;
 }

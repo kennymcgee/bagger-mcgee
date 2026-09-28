@@ -21,7 +21,8 @@ Drizzle ORM, Vercel, PostgreSQL MVP search, and a standardized VENDOR ingestion 
   duplicate SKU detection, variant preservation, and sanitized CLI reports.
 - Local review-packet preparation retains original rows, proposals, evidence gaps,
   source fingerprints, and initial history without overwriting existing packets.
-  The authenticated Admin Review Queue and corrections are still unfinished.
+  The authenticated review screen now reads these packets; corrections and durable
+  audit updates are still unfinished. See REVIEW-SCREEN.md for scope and validation.
 
 Kenny chose local development on September 24, 2026. Paid Vercel setup is deferred.
 The import preflight adds no database writes or published catalog data.
@@ -32,7 +33,7 @@ Validated on Windows with Next.js 16.3.6 and React 19.3.0:
 
 - Production build passed.
 - Strict TypeScript check and ESLint passed.
-- All 27 local import/review/authorization tests passed; production build, TypeScript,
+- All 31 local import/review/authorization/display tests passed; production build, TypeScript,
   and ESLint rechecked successfully after adding the preflight stage.
 - Running production server: home 200 and health 200 with {"status":"ok"} verified
   during foundation setup. Current signed-out admin/verify requests redirect to
