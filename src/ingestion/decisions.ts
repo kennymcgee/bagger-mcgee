@@ -1,3 +1,4 @@
+import { validateReviewAction } from "./approvals.ts";
 import { validateCorrection } from "./corrections.ts";
 import { mkdir, lstat, readdir, readFile, open, link, unlink } from "node:fs/promises";
 import path from "node:path";
@@ -33,11 +34,15 @@ export async function readDecisions(root: string, id: string): Promise<DecisionS
       const previous = state.history.findLast(e => e.correction?.field === event.correction!.field)?.correction?.value ?? null;
       if (event.previousCorrection !== previous) throw new Error("Invalid correction history.");
     }
+    if (event.reviewAction) {
+      if (event.correction || event.status !== state.status) throw new Error("Invalid approval history.");
+      event.reviewAction = validateReviewAction(state, event.reviewAction, event.role);
+    }
     state.history.push(event); state.status = event.status; state.revision = event.revision;
   }
   return state;
 }
-export async function appendDecision(root: string, id: string, input: { status: unknown; note: unknown; revision: unknown; correction?: unknown }, actor: string, role: "owner" | "reviewer") {
+export async function appendDecision(root: string, id: string, input: { status: unknown; note: unknown; revision: unknown; correction?: unknown; reviewAction?: unknown }, actor: string, role: "owner" | "reviewer") {
   const valid = validateDecision(input.status, input.note, input.revision);
   if (!/^[a-f0-9-]{36}$/i.test(actor) || !["owner", "reviewer"].includes(role)) throw new Error("Invalid reviewer.");
   const correction = input.correction === undefined ? undefined : validateCorrection(input.correction);
@@ -48,6 +53,10 @@ export async function appendDecision(root: string, id: string, input: { status: 
   if (correction) {
     event.correction = correction;
     event.previousCorrection = state.history.findLast(e => e.correction?.field === correction.field)?.correction?.value ?? null;
+  }
+  if (input.reviewAction !== undefined) {
+    if (correction || valid.status !== state.status) throw new Error("Review: save corrections and status changes separately.");
+    event.reviewAction = validateReviewAction(state, input.reviewAction, role);
   }
   const dir = await directory(root, id); const temporary = path.join(dir, `${randomUUID()}.tmp`);
   const handle = await open(temporary, "wx", 0o600);
@@ -61,6 +70,7 @@ export async function appendDecision(root: string, id: string, input: { status: 
   } finally { await unlink(temporary); }
   return { status: event.status, revision: event.revision, history: [...state.history, event] } satisfies DecisionState;
 }
+
 
 
 

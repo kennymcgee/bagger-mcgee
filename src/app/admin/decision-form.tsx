@@ -2,9 +2,10 @@
 import { useState } from "react";
 import { statuses, validateDecision, type DecisionState, type ReviewStatus } from "@/ingestion/decision-policy";
 import { correctionFields, validateCorrection, type CorrectionField } from "@/ingestion/corrections";
+import { ApprovalPanel } from "./approval-panel";
 import { saveDecision } from "./decision-actions";
 
-export function DecisionForm({id, initial, sample, onSaved}: {id: string; initial: DecisionState; sample: boolean; onSaved: (state: DecisionState) => void}) {
+export function DecisionForm({id, initial, sample, role, onSaved}: {id: string; initial: DecisionState; sample: boolean; role: "owner" | "reviewer"; onSaved: (state: DecisionState) => void}) {
   const [editing, setEditing] = useState(false);
   const [field, setField] = useState<CorrectionField>("name");
   const [value, setValue] = useState(""); const [source, setSource] = useState(""); const [evidence, setEvidence] = useState("");
@@ -38,8 +39,9 @@ export function DecisionForm({id, initial, sample, onSaved}: {id: string; initia
       </fieldset>}
       <button disabled={pending || !note.trim()}>{pending ? "Saving…" : sample ? "Try sample decision" : "Save decision"}</button>
     </form>}
-    <p role="status">{message}</p><h3>History</h3><p>Prepared for review by the local import checker. Status: New.</p>
-    <ol>{state.history.map(entry => <li key={entry.revision}><strong>{entry.from} → {entry.status}</strong><p style={{whiteSpace:"pre-wrap"}}>{entry.note}</p>{entry.correction && <div><p><strong>{correctionFields[entry.correction.field]}</strong>: {entry.previousCorrection ?? "Initial proposal (see comparison above)"} → {entry.correction.value}</p><p>Evidence source: {entry.correction.source}</p><p>Reviewer evidence summary: {entry.correction.evidence}</p></div>}<p className="admin-note">{entry.at} · {entry.role} · {entry.actor}</p></li>)}</ol>
+    <p role="status">{message}</p><ApprovalPanel id={id} state={state} sample={sample} role={role} onSaved={next => { setState(next); onSaved(next); }} /><h3>History</h3><p>Prepared for review by the local import checker. Status: New.</p>
+    <ol>{state.history.map(entry => <li key={entry.revision}><strong>{entry.reviewAction ? `${entry.reviewAction.action}: correction #${entry.reviewAction.target}` : `${entry.from} → ${entry.status}`}</strong><p style={{whiteSpace:"pre-wrap"}}>{entry.note}</p>{entry.correction && <div><p><strong>{correctionFields[entry.correction.field]}</strong>: {entry.previousCorrection ?? "Initial proposal (see comparison above)"} → {entry.correction.value}</p><p>Evidence source: {entry.correction.source}</p><p>Reviewer evidence summary: {entry.correction.evidence}</p></div>}<p className="admin-note">{entry.at} · {entry.role} · {entry.actor}</p></li>)}</ol>
   </section>;
 }
+
 

@@ -20,3 +20,5 @@ Validation: 36 tests passed, including correction persistence across status chan
 previous correction tracking, stale revision rejection, and invalid evidence/value
 rejection. Production build, TypeScript, and ESLint passed. Signed-in browser
 verification of correction submission remains pending the port 3004 launch.
+
+Live Owner verification passed September 28, 2026: a correction, evidence URL, evidence summary, and reviewer history persisted after refresh. Original and initial proposed values remained unchanged alongside the corrected value. Temporary test packet and journal removed afterward. No database or vendor data changed.

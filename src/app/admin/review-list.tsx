@@ -5,7 +5,7 @@ import type { ReviewCard } from "@/ingestion/review-display";
 import { correctionFields } from "@/ingestion/corrections";
 import { DecisionForm } from "./decision-form";
 import { statuses, type DecisionState } from "@/ingestion/decision-policy";
-export function ReviewList({ cards, sample, decisions }: { cards: ReviewCard[]; sample: boolean; decisions: Record<string, DecisionState> }) {
+export function ReviewList({ cards, sample, decisions, role }: { cards: ReviewCard[]; sample: boolean; decisions: Record<string, DecisionState>; role: "owner" | "reviewer" }) {
   const [current, setCurrent] = useState(decisions);
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("all");
@@ -24,11 +24,12 @@ export function ReviewList({ cards, sample, decisions }: { cards: ReviewCard[]; 
         <p className="admin-note">{sample ? "Synthetic sample vendor" : `Vendor record: ${card.vendorId}`}<br />Prepared {card.createdAt.replace("T", " ").replace(".000Z", " UTC")}</p>
         <div className="review-table" role="region" aria-label={`Original and proposed values for ${card.sku}`} tabIndex={0}><table><caption>Original and proposed information</caption><thead><tr><th scope="col">Field</th><th scope="col">Original vendor data</th><th scope="col">Initial proposed values</th><th scope="col">Reviewer correction</th></tr></thead><tbody>{card.fields.map(field => <tr key={field.label}><th scope="row">{field.label}</th><td>{field.original}</td><td>{field.proposed}</td><td>{current[card.id].history.findLast(entry => entry.correction && correctionFields[entry.correction.field] === field.label)?.correction?.value ?? "No correction"}</td></tr>)}</tbody></table></div>
         <div className="review-context"><section><h3>Catalog comparison</h3><p>Not looked up yet. A matching catalog record has not been verified.</p></section><section><h3>Supporting evidence</h3><p>Evidence supplied with corrections is recorded in History below. It requires human verification.</p></section></div>
-        <DecisionForm id={card.id} initial={current[card.id]} sample={sample} onSaved={state => setCurrent(previous => ({...previous, [card.id]: state}))} />
-        <p className="admin-note">Corrections are proposals only. Catalog approval and publishing are not available yet.</p>
+        <DecisionForm id={card.id} initial={current[card.id]} sample={sample} role={role} onSaved={state => setCurrent(previous => ({...previous, [card.id]: state}))} />
+        <p className="admin-note">Corrections are proposals only. Correction approvals are recorded below. Catalog updates and publishing are not available yet.</p>
       </div>
     </details>)}</div>
   </>;
 }
+
 
 

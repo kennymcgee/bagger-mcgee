@@ -40,7 +40,9 @@
     ".next-decisions/types/**/*.ts",
     ".next-decisions/dev/types/**/*.ts",
     ".next-corrections/types/**/*.ts",
-    ".next-corrections/dev/types/**/*.ts"
+    ".next-corrections/dev/types/**/*.ts",
+    ".next-approvals/types/**/*.ts",
+    ".next-approvals/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -26,7 +26,8 @@ export default async function AdminPage({ searchParams }: { searchParams: Promis
     {sample && <aside className="sample-notice"><strong>Sample view — fictional data</strong><p>These items demonstrate the review screen. They are not saved to your queue or database.</p></aside>}
     {result.unavailable > 0 && <p role="alert">{result.unavailable} review file(s) could not be read safely. The list may be incomplete; source files were left unchanged.</p>}
     {result.limited && <p role="alert">This local view has reached its display limit. Some items are not shown.</p>}
-    <ReviewList cards={result.cards} sample={sample} decisions={decisions} />
+    <ReviewList cards={result.cards} sample={sample} decisions={decisions} role={access.role} />
   </main>;
 }
+
 
