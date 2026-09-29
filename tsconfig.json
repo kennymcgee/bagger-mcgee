@@ -44,7 +44,9 @@
     ".next-approvals/types/**/*.ts",
     ".next-approvals/dev/types/**/*.ts",
     ".next-database-review/types/**/*.ts",
-    ".next-database-review/dev/types/**/*.ts"
+    ".next-database-review/dev/types/**/*.ts",
+    ".next-upload/types/**/*.ts",
+    ".next-upload/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -22,13 +22,14 @@ export default async function AdminPage({ searchParams }: { searchParams: Promis
   }
   return <main className="admin-shell review-shell"><header className="review-header"><div><p className="eyebrow">BAGGER McGEE · PRIVATE ADMIN</p><p className="admin-note">{access.role === "owner" ? "Owner" : "Reviewer"} · Two-factor verified</p></div><form action={signOut}><button className="secondary">Sign out</button></form></header>
     <h1>Review queue</h1><p>Inspect incoming vendor items before they enter the catalog.</p>
-    <nav className="review-nav" aria-label="Review views"><Link aria-current={!sample ? "page" : undefined} href="/admin">Your queue</Link><Link aria-current={sample ? "page" : undefined} href="/admin?sample=1">Explore sample items</Link></nav>
+    <nav className="review-nav" aria-label="Review views"><Link aria-current={!sample ? "page" : undefined} href="/admin">Your queue</Link><Link aria-current={sample ? "page" : undefined} href="/admin?sample=1">Explore sample items</Link>{access.role === "owner" && <Link href="/admin/upload">Upload vendor CSV</Link>}</nav>
     {sample && <aside className="sample-notice"><strong>Sample view — fictional data</strong><p>These items demonstrate the review screen. They are not saved to your queue or database.</p></aside>}
     {result.unavailable > 0 && <p role="alert">{result.unavailable} database review source(s) could not be read safely. The queue may be unavailable or incomplete; no local fallback is used.</p>}
     {result.limited && <p role="alert">This review view has reached its display limit. Some items are not shown.</p>}
     <ReviewList cards={result.cards} sample={sample} decisions={decisions} role={access.role} />
   </main>;
 }
+
 
 
 

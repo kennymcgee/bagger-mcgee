@@ -5,8 +5,9 @@ import nextTs from "eslint-config-next/typescript";
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores([".next/**", ".next-review/**", ".next-decisions/**", ".next-corrections/**", ".next-approvals/**", ".next-database-review/**", "out/**", "next-env.d.ts"]),
+  globalIgnores([".next/**", ".next-review/**", ".next-decisions/**", ".next-corrections/**", ".next-approvals/**", ".next-database-review/**", ".next-upload/**", "out/**", "next-env.d.ts"]),
 ]);
+
 
 
 

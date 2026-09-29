@@ -29,3 +29,5 @@ revision, idempotent transfer, conflict rejection and full workflow rollback tes
 then transfer existing data. Browser database-write verification remains pending.
 The script reports only safe status/counts to ignored .review-database-result.json.
 All synthetic integration rows are rolled back. No credentials appear in output.
+
+Live setup passed September 29, 2026: private schema/privacy checks and rollback transaction/workflow tests passed, zero local packets/items required transfer, originals preserved. Authenticated Owner database queue loaded successfully with zero items and no unavailable warning. Browser submission of a real database-backed item remains untested because the queue is empty.

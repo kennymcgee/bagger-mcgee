@@ -151,3 +151,4 @@ local-imports/
 .next-approvals
 .next-database-review
 .review-database-result.json
+.next-upload
