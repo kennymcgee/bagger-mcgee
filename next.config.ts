@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  distDir: process.env.BAGGER_APPROVALS_BUILD === "1" ? ".next-approvals" : process.env.BAGGER_CORRECTIONS_BUILD === "1" ? ".next-corrections" : process.env.BAGGER_DECISIONS_BUILD === "1" ? ".next-decisions" : process.env.BAGGER_REVIEW_BUILD === "1" ? ".next-review" : ".next",
+  distDir: process.env.BAGGER_DATABASE_REVIEW_BUILD === "1" ? ".next-database-review" : process.env.BAGGER_APPROVALS_BUILD === "1" ? ".next-approvals" : process.env.BAGGER_CORRECTIONS_BUILD === "1" ? ".next-corrections" : process.env.BAGGER_DECISIONS_BUILD === "1" ? ".next-decisions" : process.env.BAGGER_REVIEW_BUILD === "1" ? ".next-review" : ".next",
   poweredByHeader: false,
   async headers() {
     return [{ source: "/:path*", headers: [
@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
   },
 };
 export default nextConfig;
+
 
 
 

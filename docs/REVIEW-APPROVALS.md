@@ -22,3 +22,5 @@ Validation: all 38 tests, production build/TypeScript and ESLint passed. Tests
 cover missing verification, Owner-only approval, rejection/re-verification,
 revocation, replacement correction invalidation, and stale approval attempts.
 Live browser verification awaits launching the new port 3005 build.
+
+Live Owner verification passed September 29, 2026: approval disabled before verification; verification, approval, and revocation succeeded; approval and revocation persisted after refresh with actor/reason history retained. Temporary synthetic packet and all four journal revisions removed. No catalog or database changes made.

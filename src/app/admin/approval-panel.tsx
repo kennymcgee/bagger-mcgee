@@ -15,7 +15,7 @@ export function ApprovalPanel({id, state, sample, role, onSaved}: {id:string; st
       const reviewAction=validateReviewAction(state,{target,action},role);
       const result=sample ? {decision:{...state,revision:state.revision+1,history:[...state.history,{revision:state.revision+1,from:state.status,status:state.status,note:valid.note,actor:"Sample reviewer",role,at:new Date().toISOString(),reviewAction}]}} : await saveDecision(id,state.status,note,state.revision,undefined,reviewAction);
       if(result.error) {setMessage(result.error); return;}
-      if(result.decision) {onSaved(result.decision); setNote(""); setMessage(sample ? "Practice review recorded. Refresh clears it." : "Review recorded locally. No catalog changes were made.");}
+      if(result.decision) {onSaved(result.decision); setNote(""); setMessage(sample ? "Practice review recorded. Refresh clears it." : "Review recorded in the development database. No catalog changes were made.");}
     } catch(error) {setMessage(error instanceof Error && /^(Review:|Choose a status)/.test(error.message) ? error.message : "Could not record review. Refresh before retrying.");}
     finally {setPending(false);}
   }
@@ -32,3 +32,4 @@ export function ApprovalPanel({id, state, sample, role, onSaved}: {id:string; st
     </fieldset>)}<p role="status">{message}</p>
   </section>;
 }
+

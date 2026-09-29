@@ -149,3 +149,5 @@ local-imports/
 .next-decisions
 .next-corrections
 .next-approvals
+.next-database-review
+.review-database-result.json

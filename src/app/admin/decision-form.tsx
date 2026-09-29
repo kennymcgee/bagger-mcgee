@@ -20,11 +20,11 @@ export function DecisionForm({id, initial, sample, role, onSaved}: {id: string; 
       const previousCorrection = correction ? state.history.findLast(entry => entry.correction?.field === field)?.correction?.value ?? null : undefined;
       const result = sample ? {decision: { status, revision: state.revision + 1, history: [...state.history, {correction, previousCorrection, revision: state.revision + 1, from: state.status, status, note: valid.note, actor: "Sample reviewer", role: "owner" as const, at: new Date().toISOString()}] }} : await saveDecision(id, status, note, state.revision, correction);
       if (result.error) { setMessage(result.error); return; }
-      if (result.decision) { setState(result.decision); onSaved(result.decision); setNote(""); setEditing(false); setValue(""); setSource(""); setEvidence(""); setMessage(sample ? "Practice decision applied. Refreshing clears sample changes." : "Decision saved locally with its history."); }
+      if (result.decision) { setState(result.decision); onSaved(result.decision); setNote(""); setEditing(false); setValue(""); setSource(""); setEvidence(""); setMessage(sample ? "Practice decision applied. Refreshing clears sample changes." : "Decision saved to the development database with its history."); }
     } catch (error) { setMessage(error instanceof Error && /^(Correction:|Choose a status)/.test(error.message) ? error.message : "Could not save. Check your connection and refresh before trying again."); }
     finally { setPending(false); }
   }
-  return <section><h3>Review decision</h3><p className="admin-note">Resolved and Dismissed do not approve or publish an item. {sample ? "Practice changes disappear on refresh." : "Decisions are saved on this computer."}</p>
+  return <section><h3>Review decision</h3><p className="admin-note">Resolved and Dismissed do not approve or publish an item. {sample ? "Practice changes disappear on refresh." : "Decisions are saved in your private development database."}</p>
     {state.error ? <p role="alert">History could not be read safely. Saving is disabled for this item.</p> : <form onSubmit={submit}>
       <label htmlFor={`${id}-status`}>Status</label><select id={`${id}-status`} value={status} onChange={e => setStatus(e.target.value as ReviewStatus)} disabled={pending}>{statuses.map(value => <option key={value}>{value}</option>)}</select>
       <label htmlFor={`${id}-note`}>Review note (required)</label><textarea id={`${id}-note`} value={note} onChange={e => setNote(e.target.value)} maxLength={2000} required rows={3} disabled={pending} />
@@ -43,5 +43,6 @@ export function DecisionForm({id, initial, sample, role, onSaved}: {id: string; 
     <ol>{state.history.map(entry => <li key={entry.revision}><strong>{entry.reviewAction ? `${entry.reviewAction.action}: correction #${entry.reviewAction.target}` : `${entry.from} → ${entry.status}`}</strong><p style={{whiteSpace:"pre-wrap"}}>{entry.note}</p>{entry.correction && <div><p><strong>{correctionFields[entry.correction.field]}</strong>: {entry.previousCorrection ?? "Initial proposal (see comparison above)"} → {entry.correction.value}</p><p>Evidence source: {entry.correction.source}</p><p>Reviewer evidence summary: {entry.correction.evidence}</p></div>}<p className="admin-note">{entry.at} · {entry.role} · {entry.actor}</p></li>)}</ol>
   </section>;
 }
+
 
 
