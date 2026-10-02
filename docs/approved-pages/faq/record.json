@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - faq\\10.1.26 - Bagger - faq.pdf",
+  "filename": "10.1.26 - Bagger - faq.pdf",
+  "bytes": 743663,
+  "sha256": "d6c80a0525d393989a9e357089b728c84b15a01113f65fb79fea32a22a233be6",
+  "git_blob_sha1": "e1f17e91d03211a3a91e29d055c2673f9120e9b5",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261001180650+00'00'",
+    "/ModDate": "D:20261001180650+00'00'"
+  },
+  "id": "AP-002",
+  "page": "FAQ",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/faq/original/10.1.26 - Bagger - faq.pdf"
+}

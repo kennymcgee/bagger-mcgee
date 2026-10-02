@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - shipping score\\10.1.26 - Bagger - Shipping Score.pdf",
+  "filename": "10.1.26 - Bagger - Shipping Score.pdf",
+  "bytes": 727394,
+  "sha256": "fb8d51270f3e547013cdde2069ff3a70c1dc8e82131e4158146e714a95d06704",
+  "git_blob_sha1": "b695440d1f59a8bd2b3067e35f0cb9a9f69fcb7d",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261001152345+00'00'",
+    "/ModDate": "D:20261001152345+00'00'"
+  },
+  "id": "AP-008",
+  "page": "Shipping Score",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf"
+}

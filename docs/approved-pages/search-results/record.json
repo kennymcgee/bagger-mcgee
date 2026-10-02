@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - search results\\10.1.26 - Bagger - Search Results.pdf",
+  "filename": "10.1.26 - Bagger - Search Results.pdf",
+  "bytes": 833255,
+  "sha256": "d1bdec9a875f6551acfc8d4441d75afa48287e8471621e65e0272f867048d565",
+  "git_blob_sha1": "b5cf71fea48c04bf1c0f311fa79d0490525176f1",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261001141418+00'00'",
+    "/ModDate": "D:20261001141418+00'00'"
+  },
+  "id": "AP-007",
+  "page": "Search Results",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf"
+}

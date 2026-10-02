@@ -1,0 +1,217 @@
+{
+  "audit_date": "2026-10-02",
+  "archive_root": "C:\\Users\\kenwe\\OneDrive\\Documents\\BAGGER - master\\BAGGER - WEB - master",
+  "files": [
+    {
+      "relative_path": "PAGES - contact us\\10.2.26 - Bagger - Contact Us.pdf",
+      "filename": "10.2.26 - Bagger - Contact Us.pdf",
+      "bytes": 726594,
+      "sha256": "97a891a2b360f08df2a41e6aced2772b09ebc0941016654fdd9c1be96c6743fd",
+      "git_blob_sha1": "386c98259623fae71873fb25b31002f4bc8a1037",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261002152410+00'00'",
+        "/ModDate": "D:20261002152410+00'00'"
+      },
+      "id": "AP-001",
+      "page": "Contact Us",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/contact-us/original/10.2.26 - Bagger - Contact Us.pdf"
+    },
+    {
+      "relative_path": "PAGES - faq\\10.1.26 - Bagger - faq.pdf",
+      "filename": "10.1.26 - Bagger - faq.pdf",
+      "bytes": 743663,
+      "sha256": "d6c80a0525d393989a9e357089b728c84b15a01113f65fb79fea32a22a233be6",
+      "git_blob_sha1": "e1f17e91d03211a3a91e29d055c2673f9120e9b5",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001180650+00'00'",
+        "/ModDate": "D:20261001180650+00'00'"
+      },
+      "id": "AP-002",
+      "page": "FAQ",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/faq/original/10.1.26 - Bagger - faq.pdf"
+    },
+    {
+      "relative_path": "PAGES - get listed - no pricing\\10.1.26 - Bagger - Get Listed.pdf",
+      "filename": "10.1.26 - Bagger - Get Listed.pdf",
+      "bytes": 738955,
+      "sha256": "ec8313b1a044e72351b7693f3373e080e96bfe300f477a71080c42fc50fbbc72",
+      "git_blob_sha1": "08de7235fe900716e3501ec5bea5d88fbb8343d8",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001175138+00'00'",
+        "/ModDate": "D:20261001175138+00'00'"
+      },
+      "id": "AP-003",
+      "page": "Get Listed - no pricing",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived; active-version selection pending",
+      "repository_pdf_path": "docs/approved-pages/get-listed-no-pricing/original/10.1.26 - Bagger - Get Listed.pdf"
+    },
+    {
+      "relative_path": "PAGES - get listed - with pricing\\10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
+      "filename": "10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
+      "bytes": 739112,
+      "sha256": "1336fced78d62a589f351a695ac3bb582268fde6f203546ec12b56ec56ee7dc0",
+      "git_blob_sha1": "d16049ac78a4f56343dcbe6a8019260a34aea813",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001192136+00'00'",
+        "/ModDate": "D:20261001192136+00'00'"
+      },
+      "id": "AP-004",
+      "page": "Get Listed - with pricing tiers",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived; active-version selection pending",
+      "repository_pdf_path": "docs/approved-pages/get-listed-pricing/original/10.1.26 - Bagger - Get Listed with pricing tiers.pdf"
+    },
+    {
+      "relative_path": "PAGES - landing page\\10.1.26 - Bagger - Landing Page.pdf",
+      "filename": "10.1.26 - Bagger - Landing Page.pdf",
+      "bytes": 849296,
+      "sha256": "77dbb81dde6f6754027e108b089489a977a907c6a7783b9aec4d348ce7ef09d9",
+      "git_blob_sha1": "f136dc25b18ec27bdd5c38e05f04de7ea031f5e0",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001141416+00'00'",
+        "/ModDate": "D:20261001141416+00'00'"
+      },
+      "id": "AP-005",
+      "page": "Landing Page",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/landing-page/original/10.1.26 - Bagger - Landing Page.pdf"
+    },
+    {
+      "relative_path": "PAGES - quick tutorial\\10.1.26 - Bagger - Quick Tutorial.pdf",
+      "filename": "10.1.26 - Bagger - Quick Tutorial.pdf",
+      "bytes": 751528,
+      "sha256": "d38e2cef9170f56ad6cf986edf501e8040b4a0c79c41a06eb30eb24b2914c54a",
+      "git_blob_sha1": "0ec9b0e914b1d823d501f38dda4cb968dbf8de16",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001165216+00'00'",
+        "/ModDate": "D:20261001165216+00'00'"
+      },
+      "id": "AP-006",
+      "page": "Quick Tutorial",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/quick-tutorial/original/10.1.26 - Bagger - Quick Tutorial.pdf"
+    },
+    {
+      "relative_path": "PAGES - search results\\10.1.26 - Bagger - Search Results.pdf",
+      "filename": "10.1.26 - Bagger - Search Results.pdf",
+      "bytes": 833255,
+      "sha256": "d1bdec9a875f6551acfc8d4441d75afa48287e8471621e65e0272f867048d565",
+      "git_blob_sha1": "b5cf71fea48c04bf1c0f311fa79d0490525176f1",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001141418+00'00'",
+        "/ModDate": "D:20261001141418+00'00'"
+      },
+      "id": "AP-007",
+      "page": "Search Results",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf"
+    },
+    {
+      "relative_path": "PAGES - shipping score\\10.1.26 - Bagger - Shipping Score.pdf",
+      "filename": "10.1.26 - Bagger - Shipping Score.pdf",
+      "bytes": 727394,
+      "sha256": "fb8d51270f3e547013cdde2069ff3a70c1dc8e82131e4158146e714a95d06704",
+      "git_blob_sha1": "b695440d1f59a8bd2b3067e35f0cb9a9f69fcb7d",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261001152345+00'00'",
+        "/ModDate": "D:20261001152345+00'00'"
+      },
+      "id": "AP-008",
+      "page": "Shipping Score",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf"
+    },
+    {
+      "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Log in.pdf",
+      "filename": "10.2.26 - Bagger - Log in.pdf",
+      "bytes": 724363,
+      "sha256": "3a0b3e562fd268d8b9b43f0782dc4d5cfbc480e0c7621ce46ea10c818dcdb983",
+      "git_blob_sha1": "a05e16b84abbf87da06cc9e1ac887de47bc8e594",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261002145220+00'00'",
+        "/ModDate": "D:20261002145220+00'00'"
+      },
+      "id": "AP-009",
+      "page": "Log In",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/log-in/original/10.2.26 - Bagger - Log in.pdf"
+    },
+    {
+      "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Sign Up.pdf",
+      "filename": "10.2.26 - Bagger - Sign Up.pdf",
+      "bytes": 752126,
+      "sha256": "275e0b5109d3149350303afe5bf6781eed72138b0d69657d968ac78a9530505f",
+      "git_blob_sha1": "dd874e8c7726851baa87bab47025e89683a95a0c",
+      "pages": 1,
+      "metadata": {
+        "/Title": "Bagger McGee | Motorcycle Parts",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+        "/Producer": "Skia/PDF m154",
+        "/CreationDate": "D:20261002143327+00'00'",
+        "/ModDate": "D:20261002143327+00'00'"
+      },
+      "id": "AP-010",
+      "page": "Sign Up",
+      "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+      "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+      "version_status": "Archived approved reference per Kenny",
+      "repository_pdf_path": "docs/approved-pages/sign-up/original/10.2.26 - Bagger - Sign Up.pdf"
+    }
+  ],
+  "preservation_authorization": "Kenny requested GitHub preservation on October 2, 2026 before remaining footer-page work."
+}

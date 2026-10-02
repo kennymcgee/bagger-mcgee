@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - contact us\\10.2.26 - Bagger - Contact Us.pdf",
+  "filename": "10.2.26 - Bagger - Contact Us.pdf",
+  "bytes": 726594,
+  "sha256": "97a891a2b360f08df2a41e6aced2772b09ebc0941016654fdd9c1be96c6743fd",
+  "git_blob_sha1": "386c98259623fae71873fb25b31002f4bc8a1037",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261002152410+00'00'",
+    "/ModDate": "D:20261002152410+00'00'"
+  },
+  "id": "AP-001",
+  "page": "Contact Us",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/contact-us/original/10.2.26 - Bagger - Contact Us.pdf"
+}

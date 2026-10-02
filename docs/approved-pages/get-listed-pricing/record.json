@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - get listed - with pricing\\10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
+  "filename": "10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
+  "bytes": 739112,
+  "sha256": "1336fced78d62a589f351a695ac3bb582268fde6f203546ec12b56ec56ee7dc0",
+  "git_blob_sha1": "d16049ac78a4f56343dcbe6a8019260a34aea813",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261001192136+00'00'",
+    "/ModDate": "D:20261001192136+00'00'"
+  },
+  "id": "AP-004",
+  "page": "Get Listed - with pricing tiers",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived; active-version selection pending",
+  "repository_pdf_path": "docs/approved-pages/get-listed-pricing/original/10.1.26 - Bagger - Get Listed with pricing tiers.pdf"
+}

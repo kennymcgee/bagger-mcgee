@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - landing page\\10.1.26 - Bagger - Landing Page.pdf",
+  "filename": "10.1.26 - Bagger - Landing Page.pdf",
+  "bytes": 849296,
+  "sha256": "77dbb81dde6f6754027e108b089489a977a907c6a7783b9aec4d348ce7ef09d9",
+  "git_blob_sha1": "f136dc25b18ec27bdd5c38e05f04de7ea031f5e0",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261001141416+00'00'",
+    "/ModDate": "D:20261001141416+00'00'"
+  },
+  "id": "AP-005",
+  "page": "Landing Page",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/landing-page/original/10.1.26 - Bagger - Landing Page.pdf"
+}

@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Sign Up.pdf",
+  "filename": "10.2.26 - Bagger - Sign Up.pdf",
+  "bytes": 752126,
+  "sha256": "275e0b5109d3149350303afe5bf6781eed72138b0d69657d968ac78a9530505f",
+  "git_blob_sha1": "dd874e8c7726851baa87bab47025e89683a95a0c",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261002143327+00'00'",
+    "/ModDate": "D:20261002143327+00'00'"
+  },
+  "id": "AP-010",
+  "page": "Sign Up",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/sign-up/original/10.2.26 - Bagger - Sign Up.pdf"
+}

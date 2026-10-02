@@ -1,0 +1,21 @@
+{
+  "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Log in.pdf",
+  "filename": "10.2.26 - Bagger - Log in.pdf",
+  "bytes": 724363,
+  "sha256": "3a0b3e562fd268d8b9b43f0782dc4d5cfbc480e0c7621ce46ea10c818dcdb983",
+  "git_blob_sha1": "a05e16b84abbf87da06cc9e1ac887de47bc8e594",
+  "pages": 1,
+  "metadata": {
+    "/Title": "Bagger McGee | Motorcycle Parts",
+    "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "/Producer": "Skia/PDF m154",
+    "/CreationDate": "D:20261002145220+00'00'",
+    "/ModDate": "D:20261002145220+00'00'"
+  },
+  "id": "AP-009",
+  "page": "Log In",
+  "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
+  "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
+  "version_status": "Archived approved reference per Kenny",
+  "repository_pdf_path": "docs/approved-pages/log-in/original/10.2.26 - Bagger - Log in.pdf"
+}
