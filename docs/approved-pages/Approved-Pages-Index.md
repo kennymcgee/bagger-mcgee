@@ -16,6 +16,8 @@ Original approvals remain intact. Current PDFs use the Sign Up shared header/foo
 | AP-010 | Sign Up | [Original](sign-up/original/10.2.26%20-%20Bagger%20-%20Sign%20Up.pdf) | [Current](sign-up/revisions/2026-10-02-hamburger-header/Bagger-McGee-Sign-Up-Hamburger-Header-2026-10-02.pdf) |
 | AP-011 | Affiliate Disclosure | [Approved October 2, 2026](affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf) | [Current](affiliate-disclosure/revisions/2026-10-02-hamburger-header/Bagger-McGee-Affiliate-Disclosure-Hamburger-Header-2026-10-02.pdf) |
 
+| AP-012 | Terms of Use | [Approved October 2, 2026](terms-of-use/original/Bagger-McGee-Terms-of-Use-Approved-2026-10-02.pdf) | [Current](terms-of-use/original/Bagger-McGee-Terms-of-Use-Approved-2026-10-02.pdf) |
+
 Both Get Listed versions are retained; active commercial wording remains pending. File dates do not establish original approval timestamps. Current captures are design records; live functionality remains separately verified.
 
 [Design continuity rules](DESIGN-CONTINUITY.md) Ãƒâ€šÃ‚Â· [Editable source archive](source/Bagger-McGee-Editable-Source-2026-10-02.zip)
@@ -34,3 +36,10 @@ Kenny approved the hamburger menu as the standard at every width. All 11 current
 ## October 2, 2026 — horizontal comparison restored
 
 Kenny corrected the responsive layout: Landing and Search Results keep horizontal listing rows under sortable orange headers at all widths, with horizontal scrolling when space is limited. Shipping Score scale uses the exact shared search-result badge style. [Editable source overlay](source/Bagger-McGee-Horizontal-Comparison-Source-2026-10-02.zip).
+
+
+## October 2, 2026 - Terms of Use approved
+
+Kenny approved the revised Terms of Use page as AP-012. The exact downloaded PDF is preserved, including historical review labels; approval is established by the record. No business-address references; Current Demonstration is last (08). Approval is for design and wording, not publication or legal effectiveness.
+
+[Approval record](terms-of-use/record.json) | [Latest full editable source](terms-of-use/source/Bagger-McGee-Terms-of-Use-Editable-Source-2026-10-02.zip). The source includes prior hamburger and horizontal comparison corrections. About and Privacy remain future pages. Final launch details and account/privacy practices remain to be completed.

@@ -4,7 +4,7 @@ Kenny designated Sign Up as the reference header and footer on October 2, 2026. 
 
 Before calling a page complete, check header/footer labels, links, logo, typography, colors, spacing, keyboard/mobile menu, and page flow against Sign Up at desktop and phone widths. Speak up to Kenny whenever a design, flow, or content inconsistency appears; do not silently rewrite approved body content. Save the exact PDF, editable source, revision provenance, fingerprints, and updated index on GitHub main.
 
-Original approval PDFs remain immutable historical records. Current captures are dated revisions. Both Get Listed versions remain preserved. The FAQ/pricing commercial-terms discrepancy needs Kenny's decision before content reconciliation. Affiliate Disclosure is approved as AP-011. About, Terms of Use, and Privacy remain future work.
+Original approval PDFs remain immutable historical records. Current captures are dated revisions. Both Get Listed versions remain preserved. The FAQ/pricing commercial-terms discrepancy needs Kenny's decision before content reconciliation. Affiliate Disclosure is approved as AP-011. Terms of Use is approved as AP-012. About and Privacy remain future work.
 
 Recovered source is in docs/approved-pages/source/Bagger-McGee-Editable-Source-2026-10-02.zip; it includes local development source and assets, without dependencies, credentials, environment files, or local database/import data. It is not a deployment and does not establish live services. Shared files are also stored separately for direct review.
 
@@ -25,3 +25,7 @@ Kenny approved the hamburger menu at every viewport width as the standard for al
 
 ## Horizontal comparison correction — October 2, 2026
 Kenny explicitly requested that Landing and Search Results retain the original approved horizontal listing rows beneath the orange sortable column headers at all viewport widths. Do not substitute stacked cards at responsive breakpoints. Use horizontal scrolling where needed. Shipping Score scale grades must reuse the shared shippingBadge style from search results.
+
+
+## Terms of Use approval - October 2, 2026
+Terms of Use is approved as AP-012. Preserve the exact original PDF, including historical draft labels, and approval evidence. Current Demonstration is last (08); omit business-address references and holding-company names from the site. Intended market is US with worldwide browsing welcome; minimum 16 for accounts/reviews. Bagger McGee LLC will be registered before launch. No live publication or legal effective date is established by this approval. Latest full editable source is docs/approved-pages/terms-of-use/source/Bagger-McGee-Terms-of-Use-Editable-Source-2026-10-02.zip.

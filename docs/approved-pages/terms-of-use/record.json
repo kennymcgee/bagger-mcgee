@@ -1,0 +1,66 @@
+{
+  "id": "AP-012",
+  "page": "Terms of Use",
+  "approval_date": "2026-10-02",
+  "approval_evidence": "Kenny explicitly approved the revised page: approved - i've already downloaded the PDF for my records. update everything on your end (GitHub, etc).",
+  "source_chat_directory": "C:\\Users\\kenwe\\Documents\\Codex\\2026-10-02\\continue-collaborating-with-kenny-on-bagger-4",
+  "version_status": "Approved design and wording; not deployed or legally effective",
+  "repository_pdf_path": "docs/approved-pages/terms-of-use/original/Bagger-McGee-Terms-of-Use-Approved-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/terms-of-use/original/Bagger-McGee-Terms-of-Use-Approved-2026-10-02.pdf",
+  "filename": "Bagger-McGee-Terms-of-Use-Approved-2026-10-02.pdf",
+  "pages": 1,
+  "bytes": 725575,
+  "sha256": "c6fdced4d49c40246dc5e8e94ea79a003b5a627f5c26c8af6665e6e7bc6952ce",
+  "git_blob_sha1": "346a8295b6eda4967b4fffbfb97077f8a714697b",
+  "current_pdf_sha256": "c6fdced4d49c40246dc5e8e94ea79a003b5a627f5c26c8af6665e6e7bc6952ce",
+  "current_pdf_git_blob_sha1": "346a8295b6eda4967b4fffbfb97077f8a714697b",
+  "source_archive_path": "docs/approved-pages/terms-of-use/source/Bagger-McGee-Terms-of-Use-Editable-Source-2026-10-02.zip",
+  "source_archive_fingerprint": {
+    "bytes": 1035069,
+    "sha256": "b815436f011a329c8c6c259a33d7fd9e79757f2e98673145989d719c829e7e54",
+    "git_blob_sha1": "56a9adcd0399d1c8faa0e070d3eba8ac9e6b26fb"
+  },
+  "preservation_notes": "Exact downloaded revised PDF preserved without re-export or content changes. Review labels and private note retained as original approval evidence. Current Demonstration moved to position 08; New Mexico references removed. Prior approved PDFs unchanged.",
+  "validation": {
+    "records": [
+      {
+        "width": 1440,
+        "status": 200,
+        "headerMatch": true,
+        "footerMatch": true,
+        "noOverflow": true,
+        "menuOpens": true,
+        "escapeCloses": true,
+        "anchorWorks": true,
+        "sections": 8
+      },
+      {
+        "width": 390,
+        "status": 200,
+        "headerMatch": true,
+        "footerMatch": true,
+        "noOverflow": true,
+        "menuOpens": true,
+        "escapeCloses": true,
+        "anchorWorks": true,
+        "sections": 8
+      }
+    ],
+    "height": 5179,
+    "footerRouteWorks": true,
+    "browserErrors": []
+  },
+  "business_notes": [
+    "Bagger McGee LLC will be registered in North Carolina before launch.",
+    "Holding company not named on site; business address omitted at Kenny request.",
+    "US intended market; worldwide browsing welcome.",
+    "Minimum 16 for accounts and reviews; parent/guardian permission for minors.",
+    "No governing law, venue, arbitration, indemnity, or liability cap chosen.",
+    "Demonstration limits remain explicit; effective date and actual launch practices to be verified."
+  ],
+  "provenance": {
+    "base_commit": "7dbc873e87328ab0378dadb92114f992737bb50f",
+    "base_archive_sha256": "7c16e8bead74482f0641ca8a7afd3b5a3190040dfe176d0fd7f90b25caf3c265",
+    "horizontal_overlay_sha256": "1b1322ab5e851b85a3fa0f679172c001e0f9be8b27571e54d273158472bc594e"
+  }
+}

@@ -1,0 +1,1 @@
+Terms of Use design and wording approved by Kenny on October 2, 2026 as AP-012. Not deployed or legally effective. Exact approved PDF preserves its review labels and private preview note; these labels do not invalidate the subsequent recorded approval. Current Demonstration is section 08; business-address references omitted.
