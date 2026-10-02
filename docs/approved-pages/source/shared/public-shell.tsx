@@ -42,7 +42,7 @@ export function PublicFooter({ previewNote = "Design preview for Sam and Kenny. 
     <div className={styles.footerGrid}>
       <nav aria-label="Search"><h2>SEARCH</h2><Link href="/search-results">Find Parts</Link><Link href="/shipping-score">Shipping Score</Link><Link href="/quick-tutorial">Quick Tutorial</Link></nav>
       <nav aria-label="Company"><h2>COMPANY</h2><button onClick={()=>showInfo("About")}>About</button><Link href="/help">FAQ</Link><Link href="/contact">Contact</Link></nav>
-      <nav aria-label="Legal"><h2>LEGAL</h2>{["Terms of Use", "Privacy", "Affiliate Disclosure"].map(title=><button key={title} onClick={()=>showInfo(title)}>{title}</button>)}</nav>
+      <nav aria-label="Legal"><h2>LEGAL</h2>{["Terms of Use", "Privacy"].map(title=><button key={title} onClick={()=>showInfo(title)}>{title}</button>)}<Link href="/affiliate-disclosure">Affiliate Disclosure</Link></nav>
       <div className={styles.footerRetailers}><h2>FOR RETAILERS</h2><h3>LIST YOUR CATALOG</h3><p>Connect your parts catalog with riders looking for their next part.</p><Link href="/for-retailers">GET LISTED <span aria-hidden="true">→</span></Link></div>
     </div>
     <div className={styles.footerBase}><p>© 2026 Bagger McGee · Independent of Harley-Davidson and Indian Motorcycle.</p><Link href="/admin">Owner sign-in</Link></div>
@@ -51,6 +51,7 @@ export function PublicFooter({ previewNote = "Design preview for Sam and Kenny. 
     <dialog ref={dialog} className={styles.shareDialog} aria-labelledby="footer-dialog-title"><div className={styles.dialogHeading}><span>BAGGER McGEE</span><button aria-label="Close" onClick={()=>dialog.current?.close()}>×</button></div><h2 id="footer-dialog-title">{panel}</h2><p>{footerInfo[panel]}</p><button className={styles.primary} onClick={()=>dialog.current?.close()}>Close</button></dialog>
   </footer>;
 }
+
 
 
 

@@ -261,6 +261,41 @@
       "current_pdf_git_blob_sha1": "ecbc4f001358a09ea831aefab756f464b8b4a9fd",
       "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
       "original_pdf_status": "Preserved unchanged; current capture linked separately"
+    },
+    {
+      "id": "AP-011",
+      "page": "Affiliate Disclosure",
+      "approval_date": "2026-10-02",
+      "approval_evidence": "Kenny explicitly approved the complete page in this chat: \"love it! give me the downloadable PDF so i can save to my PC and update your records and GitHub (and anywhere else) accordingly. the Affiliate Disclosure page is approved.\"",
+      "source_chat_directory": "C:\\Users\\kenwe\\Documents\\Codex\\2026-10-02\\continue-collaborating-with-kenny-on-bagger-3",
+      "version_status": "Approved design and wording; not a live deployment",
+      "repository_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+      "filename": "Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+      "pages": 1,
+      "bytes": 722808,
+      "sha256": "c61c36d7332be9c1a3960fed5da6ac0cc29ddfc358e6fe97f4a9033e30ac8c2e",
+      "git_blob_sha1": "811f04045efb26b3f6d4cff116b034e2d2c55bc8",
+      "source_archive_path": "docs/approved-pages/affiliate-disclosure/source/Bagger-McGee-Affiliate-Disclosure-Editable-Source-2026-10-02.zip",
+      "source_archive_fingerprint": {
+        "bytes": 944684,
+        "sha256": "33d325fb4ae500ec5173e945eeb34424200a681683a48be67729f1facfb3577f",
+        "git_blob_sha1": "24f89ae9165e5e5952edf31e05078809766640cc"
+      },
+      "validation": [
+        "TypeScript check passed",
+        "Desktop PDF visually verified",
+        "390px phone layout visually checked; menu opens and Escape dismisses from navigation",
+        "Full shared header/footer and approved wording verified in PDF"
+      ],
+      "preservation_notes": "First approved Affiliate Disclosure original. Four dark cards with orange top borders. Approval status updated only in private footer note. Original approvals of other pages unchanged.",
+      "business_notes": [
+        "No retailer revenue is currently earned. Subscriptions use monthly fees based on SKU count.",
+        "Potential future affiliate arrangements remain conditional; actual terms are not yet established.",
+        "Payment never buys influence.",
+        "Existing FAQ/pricing commercial wording remains pending reconciliation.",
+        "Fictional offers and participation are demonstration content."
+      ]
     }
   ],
   "source_archive_sha256": "23f90526c93a5539efbe2e5cd1081eb009666677283a899de34dd8c1390b386f",

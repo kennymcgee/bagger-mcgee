@@ -14,7 +14,11 @@ Original approvals remain intact. Current PDFs use the Sign Up shared header/foo
 | AP-008 | Shipping Score | [Original](shipping-score/original/10.1.26%20-%20Bagger%20-%20Shipping%20Score.pdf) | [Current](shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf) |
 | AP-009 | Log In | [Original](log-in/original/10.2.26%20-%20Bagger%20-%20Log%20in.pdf) | [Current](log-in/revisions/2026-10-02-shared-shell/Bagger-McGee-Log-In-Consistent-Shell-2026-10-02.pdf) |
 | AP-010 | Sign Up | [Original](sign-up/original/10.2.26%20-%20Bagger%20-%20Sign%20Up.pdf) | [Current](sign-up/revisions/2026-10-02-shared-shell/Bagger-McGee-Sign-Up-Consistent-Shell-2026-10-02.pdf) |
+| AP-011 | Affiliate Disclosure | [Approved October 2, 2026](affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf) | [Current](affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf) |
 
 Both Get Listed versions are retained; active commercial wording remains pending. File dates do not establish original approval timestamps. Current captures are design records; live functionality remains separately verified.
 
-[Design continuity rules](DESIGN-CONTINUITY.md) · [Editable source archive](source/Bagger-McGee-Editable-Source-2026-10-02.zip)
+[Design continuity rules](DESIGN-CONTINUITY.md) Â· [Editable source archive](source/Bagger-McGee-Editable-Source-2026-10-02.zip)
+
+
+Affiliate Disclosure: [approval record](affiliate-disclosure/record.json) · [editable source overlay](affiliate-disclosure/source/Bagger-McGee-Affiliate-Disclosure-Editable-Source-2026-10-02.zip). This approved page permits potential affiliate participation; FAQ/pricing wording remains pending reconciliation.
