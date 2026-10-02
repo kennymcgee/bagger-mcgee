@@ -11,3 +11,7 @@ PDFs preserve visible copy and design, not interactive source or implemented ser
 For every future completed page, preserve the original PDF and approved source where available, record approval evidence and version, verify fingerprints, update this index, and report the resulting main-branch commit and file links. Keep previous versions and Kenny's local backups. Never treat conversational memory as the permanent archive.
 
 About, Terms of Use, Privacy, and Affiliate Disclosure have no standalone PDFs in the recovered archive; footer links alone do not establish completion.
+
+## Current design captures
+
+Kenny authorized matching all completed pages to Sign Up on October 2, 2026. Use the Current PDF links in Approved-Pages-Index.md. Original PDFs remain preserved. See DESIGN-CONTINUITY.md and the recovered editable source archive. Shared Quick Tutorial navigation now opens /quick-tutorial. All 10 routes passed desktop/mobile shell comparisons.

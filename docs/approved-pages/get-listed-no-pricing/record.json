@@ -17,5 +17,10 @@
   "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
   "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
   "version_status": "Archived; active-version selection pending",
-  "repository_pdf_path": "docs/approved-pages/get-listed-no-pricing/original/10.1.26 - Bagger - Get Listed.pdf"
+  "repository_pdf_path": "docs/approved-pages/get-listed-no-pricing/original/10.1.26 - Bagger - Get Listed.pdf",
+  "current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_sha256": "d9ab3e8b1ac5d9e49b24a0c5d3cf3de961a2ab13db7afd618d93f7b312dd35c5",
+  "current_pdf_git_blob_sha1": "444185c93962ff1f054ce62f5ded4c3e308fcc08",
+  "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+  "original_pdf_status": "Preserved unchanged; current capture linked separately"
 }

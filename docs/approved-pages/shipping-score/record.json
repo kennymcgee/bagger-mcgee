@@ -17,5 +17,10 @@
   "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
   "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
   "version_status": "Archived approved reference per Kenny",
-  "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf"
+  "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf",
+  "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_sha256": "b835acbcde4876f76f30b366b7315d3c95dcc2e454c3d2dfc6b60343a66040c9",
+  "current_pdf_git_blob_sha1": "f28f151f87ab0ab6625559ffb099160ee581a564",
+  "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+  "original_pdf_status": "Preserved unchanged; current capture linked separately"
 }

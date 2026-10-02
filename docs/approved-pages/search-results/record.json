@@ -17,5 +17,10 @@
   "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
   "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
   "version_status": "Archived approved reference per Kenny",
-  "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf"
+  "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf",
+  "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_sha256": "d4e3173309e232be67da5a744ffc591aa72da762a9dfe360937b4ec9a1de942f",
+  "current_pdf_git_blob_sha1": "23e7c57148484456dbe7b6e9fb32efd6be914031",
+  "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+  "original_pdf_status": "Preserved unchanged; current capture linked separately"
 }

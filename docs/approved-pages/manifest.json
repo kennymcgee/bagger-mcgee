@@ -1,6 +1,6 @@
 {
   "audit_date": "2026-10-02",
-  "archive_root": "C:\\Users\\kenwe\\OneDrive\\Documents\\BAGGER - master\\BAGGER - WEB - master",
+  "revision_date": "2026-10-02",
   "files": [
     {
       "relative_path": "PAGES - contact us\\10.2.26 - Bagger - Contact Us.pdf",
@@ -21,7 +21,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/contact-us/original/10.2.26 - Bagger - Contact Us.pdf"
+      "repository_pdf_path": "docs/approved-pages/contact-us/original/10.2.26 - Bagger - Contact Us.pdf",
+      "current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-shared-shell/Bagger-McGee-Contact-Us-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "c8cd1533bed7134709ac6820388d7ac72161c9de4cbed9e486c20f65f1a1f963",
+      "current_pdf_git_blob_sha1": "16f3d6c4a618d66ad2f95d46deedeb8f22787c3f",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - faq\\10.1.26 - Bagger - faq.pdf",
@@ -42,7 +47,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/faq/original/10.1.26 - Bagger - faq.pdf"
+      "repository_pdf_path": "docs/approved-pages/faq/original/10.1.26 - Bagger - faq.pdf",
+      "current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-shared-shell/Bagger-McGee-FAQ-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "eb6f8462c8b4bdf0f3cf700b9971b7565d59d4bdd116a57f74fdb628252edf21",
+      "current_pdf_git_blob_sha1": "25a7db0baf7bfd1335aca28aa3529f1ac58b80de",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - get listed - no pricing\\10.1.26 - Bagger - Get Listed.pdf",
@@ -63,7 +73,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived; active-version selection pending",
-      "repository_pdf_path": "docs/approved-pages/get-listed-no-pricing/original/10.1.26 - Bagger - Get Listed.pdf"
+      "repository_pdf_path": "docs/approved-pages/get-listed-no-pricing/original/10.1.26 - Bagger - Get Listed.pdf",
+      "current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "d9ab3e8b1ac5d9e49b24a0c5d3cf3de961a2ab13db7afd618d93f7b312dd35c5",
+      "current_pdf_git_blob_sha1": "444185c93962ff1f054ce62f5ded4c3e308fcc08",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - get listed - with pricing\\10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
@@ -84,7 +99,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived; active-version selection pending",
-      "repository_pdf_path": "docs/approved-pages/get-listed-pricing/original/10.1.26 - Bagger - Get Listed with pricing tiers.pdf"
+      "repository_pdf_path": "docs/approved-pages/get-listed-pricing/original/10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
+      "current_pdf_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Pricing-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "5e027c085a30ac7eeff3c34f30ea9c855b5c4b2e1c01f0b363d909355697f823",
+      "current_pdf_git_blob_sha1": "6bdc3896da3310b48eec3a2e9ed8f69c96d357cd",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - landing page\\10.1.26 - Bagger - Landing Page.pdf",
@@ -105,7 +125,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/landing-page/original/10.1.26 - Bagger - Landing Page.pdf"
+      "repository_pdf_path": "docs/approved-pages/landing-page/original/10.1.26 - Bagger - Landing Page.pdf",
+      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-shared-shell/Bagger-McGee-Landing-Page-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "67bbd3eb154f2de87fe94dae7f1a9f2d67bf9415ab2ca9b374918f207bc1f034",
+      "current_pdf_git_blob_sha1": "bb784f3ae372c829d6181772092325534357027a",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - quick tutorial\\10.1.26 - Bagger - Quick Tutorial.pdf",
@@ -126,7 +151,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/quick-tutorial/original/10.1.26 - Bagger - Quick Tutorial.pdf"
+      "repository_pdf_path": "docs/approved-pages/quick-tutorial/original/10.1.26 - Bagger - Quick Tutorial.pdf",
+      "current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-shared-shell/Bagger-McGee-Quick-Tutorial-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "160c2aee83121f17a4689dd912f7fbce7c099d8fa455e2124c6ec99d512da74d",
+      "current_pdf_git_blob_sha1": "d0843ff9c1bc2b8bd0b9f59a4b78045279725fc1",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - search results\\10.1.26 - Bagger - Search Results.pdf",
@@ -147,7 +177,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf"
+      "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf",
+      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "d4e3173309e232be67da5a744ffc591aa72da762a9dfe360937b4ec9a1de942f",
+      "current_pdf_git_blob_sha1": "23e7c57148484456dbe7b6e9fb32efd6be914031",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - shipping score\\10.1.26 - Bagger - Shipping Score.pdf",
@@ -168,7 +203,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf"
+      "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf",
+      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "b835acbcde4876f76f30b366b7315d3c95dcc2e454c3d2dfc6b60343a66040c9",
+      "current_pdf_git_blob_sha1": "f28f151f87ab0ab6625559ffb099160ee581a564",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Log in.pdf",
@@ -189,7 +229,12 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/log-in/original/10.2.26 - Bagger - Log in.pdf"
+      "repository_pdf_path": "docs/approved-pages/log-in/original/10.2.26 - Bagger - Log in.pdf",
+      "current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-shared-shell/Bagger-McGee-Log-In-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "b6d7a76d0f2f465a235a4de83b2c67027907d72abf525d173cacdf09507f794e",
+      "current_pdf_git_blob_sha1": "d85edaae67e06af98c85159c24e8925ade8a60b1",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     },
     {
       "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Sign Up.pdf",
@@ -210,8 +255,195 @@
       "github_preservation": "Preserved in the same main-branch commit as this index; verify blob fingerprint against manifest",
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
-      "repository_pdf_path": "docs/approved-pages/sign-up/original/10.2.26 - Bagger - Sign Up.pdf"
+      "repository_pdf_path": "docs/approved-pages/sign-up/original/10.2.26 - Bagger - Sign Up.pdf",
+      "current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-shared-shell/Bagger-McGee-Sign-Up-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_sha256": "348a9337462d49fe7da99058f7632d2312e17b2c18eb55f3aef9d23eb97e7083",
+      "current_pdf_git_blob_sha1": "ecbc4f001358a09ea831aefab756f464b8b4a9fd",
+      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately"
     }
   ],
-  "preservation_authorization": "Kenny requested GitHub preservation on October 2, 2026 before remaining footer-page work."
+  "source_archive_sha256": "23f90526c93a5539efbe2e5cd1081eb009666677283a899de34dd8c1390b386f",
+  "validation": [
+    {
+      "name": "Sign-Up",
+      "route": "/sign-up",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Landing-Page",
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Search-Results",
+      "route": "/search-results",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Shipping-Score",
+      "route": "/shipping-score",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Quick-Tutorial",
+      "route": "/quick-tutorial",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "FAQ",
+      "route": "/help",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Get-Listed",
+      "route": "/for-retailers",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Get-Listed-Pricing",
+      "route": "/pricing",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Log-In",
+      "route": "/log-in",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Contact-Us",
+      "route": "/contact",
+      "width": 1440,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Sign-Up",
+      "route": "/sign-up",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Landing-Page",
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Search-Results",
+      "route": "/search-results",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Shipping-Score",
+      "route": "/shipping-score",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Quick-Tutorial",
+      "route": "/quick-tutorial",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "FAQ",
+      "route": "/help",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Get-Listed",
+      "route": "/for-retailers",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Get-Listed-Pricing",
+      "route": "/pricing",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Log-In",
+      "route": "/log-in",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "name": "Contact-Us",
+      "route": "/contact",
+      "width": 390,
+      "status": 200,
+      "headerMatchesSignUp": true,
+      "footerMatchesSignUp": true,
+      "noHorizontalOverflow": true
+    }
+  ]
 }
