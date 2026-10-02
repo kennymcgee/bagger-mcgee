@@ -319,3 +319,26 @@
  .resultsWithSidebar .offer .flagCell{grid-column:2;grid-row:5}
  .resultsWithSidebar .offer .cellLabel{display:block;min-height:18px;font:10px Arial,Helvetica,sans-serif;color:var(--muted);margin-bottom:7px}
 }
+
+/* Preserve Kenny's approved horizontal comparison at every viewport width. */
+.resultsWithSidebar .offers{overflow-x:auto;overscroll-behavior-x:contain;padding-bottom:8px}
+.resultsWithSidebar .listHeader,.resultsWithSidebar .offer{display:grid!important;width:max(100%,960px);grid-template-columns:minmax(150px,1.1fr) minmax(180px,1.7fr) 108px 90px 76px 126px 60px 60px;gap:0;padding-left:0;padding-right:0;align-items:stretch}
+.resultsWithSidebar .listHeader{padding-top:18px;padding-bottom:18px}
+.resultsWithSidebar .offer{padding-top:20px;padding-bottom:20px}
+.resultsWithSidebar .offer>div{grid-row:1!important;text-align:left;padding-left:10px;padding-right:10px;min-width:0}
+.resultsWithSidebar .offer .retailer{grid-column:1!important}
+.resultsWithSidebar .offer .part{grid-column:2!important}
+.resultsWithSidebar .offer .conditionCell{grid-column:3!important}
+.resultsWithSidebar .offer .price{grid-column:4!important;font-size:18px}
+.resultsWithSidebar .offer .shippingCell{grid-column:5!important}
+.resultsWithSidebar .offer .couponCell{grid-column:6!important}
+.resultsWithSidebar .offer .shareCell{grid-column:7!important}
+.resultsWithSidebar .offer .flagCell{grid-column:8!important}
+.resultsWithSidebar .offer>div+div{border-left:1px solid #ffffff16}
+.resultsWithSidebar .offer .cellLabel{display:none!important}
+.resultsWithSidebar .listHeader>span{display:flex!important;align-items:center;justify-content:center;padding-left:10px;padding-right:10px}
+.resultsWithSidebar .listHeader button{padding-left:10px;padding-right:10px;gap:4px;border-radius:0;justify-content:center}
+.resultsWithSidebar .mobileSort{display:none}
+.resultsWithSidebar .offers:focus-visible{outline:2px solid var(--orange);outline-offset:4px}
+
+.resultsWithSidebar .conditionText>span{white-space:nowrap}

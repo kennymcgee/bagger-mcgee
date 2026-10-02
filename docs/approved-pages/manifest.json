@@ -134,12 +134,12 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/landing-page/original/10.1.26 - Bagger - Landing Page.pdf",
-      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/Bagger-McGee-Landing-Page-Hamburger-Header-2026-10-02.pdf",
-      "current_pdf_sha256": "22a77fc4ff30d6a00f83da8f1308ba029e507b83c5e2e5bee6023af825c77c32",
-      "current_pdf_git_blob_sha1": "2199da3dc4e4a4a7f64574224fbd5d8c834c3485",
-      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Landing-Page-Horizontal-Comparison-2026-10-02.pdf",
+      "current_pdf_sha256": "679f5f87590a212a1b0dd5a10ed584c1b88c72d4cf050ba112d03ffb61392259",
+      "current_pdf_git_blob_sha1": "62149940f9190573381620c6615f7928acae79f3",
+      "revision_authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
       "original_pdf_status": "Preserved unchanged; current capture linked separately",
-      "previous_current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-shared-shell/Bagger-McGee-Landing-Page-Consistent-Shell-2026-10-02.pdf",
+      "previous_current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/Bagger-McGee-Landing-Page-Hamburger-Header-2026-10-02.pdf",
       "current_revision_record_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
@@ -190,12 +190,12 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf",
-      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/Bagger-McGee-Search-Results-Hamburger-Header-2026-10-02.pdf",
-      "current_pdf_sha256": "209557c045253713f983a0b4dd894232cc6042b0449911ef5ae66599a43d4235",
-      "current_pdf_git_blob_sha1": "a2835386a10b0259dc28e4c907c2139ab97d1ce3",
-      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Search-Results-Horizontal-Comparison-2026-10-02.pdf",
+      "current_pdf_sha256": "e26bdff1c75d3c9d7434761a9f107a22cf607cb8b8a219680b75535e9defd21d",
+      "current_pdf_git_blob_sha1": "0725fe2983ab3fe0f676cc4a516d66f40f34a597",
+      "revision_authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
       "original_pdf_status": "Preserved unchanged; current capture linked separately",
-      "previous_current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
+      "previous_current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/Bagger-McGee-Search-Results-Hamburger-Header-2026-10-02.pdf",
       "current_revision_record_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
@@ -218,12 +218,12 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf",
-      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/Bagger-McGee-Shipping-Score-Hamburger-Header-2026-10-02.pdf",
-      "current_pdf_sha256": "7033f2895d39ebf15f68d4fbfaad4918655ca29b600862a9562782c0ec6fcbbc",
-      "current_pdf_git_blob_sha1": "c36b579bc30ffd4c594b063ab5a59fd8df1705a7",
-      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Shipping-Score-Horizontal-Comparison-2026-10-02.pdf",
+      "current_pdf_sha256": "9e293c9218fee0ece48082123bacb419bb5e9037bd09cad1ce516420fcdff51c",
+      "current_pdf_git_blob_sha1": "5d1907a421d0b98dc7211389eb4bc7af92369946",
+      "revision_authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
       "original_pdf_status": "Preserved unchanged; current capture linked separately",
-      "previous_current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
+      "previous_current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/Bagger-McGee-Shipping-Score-Hamburger-Header-2026-10-02.pdf",
       "current_revision_record_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
@@ -511,5 +511,11 @@
     "sha256": "7c16e8bead74482f0641ca8a7afd3b5a3190040dfe176d0fd7f90b25caf3c265",
     "git_blob_sha1": "ec6cd2aae7612d84d6263496296cbb6a2cc18244",
     "bytes": 1026820
+  },
+  "latest_source_overlay": {
+    "path": "docs/approved-pages/source/Bagger-McGee-Horizontal-Comparison-Source-2026-10-02.zip",
+    "sha256": "1b1322ab5e851b85a3fa0f679172c001e0f9be8b27571e54d273158472bc594e",
+    "git_blob_sha1": "586bbd4dca7441e2a4d466d02a09fc600f85d06f",
+    "bytes": 13911
   }
 }

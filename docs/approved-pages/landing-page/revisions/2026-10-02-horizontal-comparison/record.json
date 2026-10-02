@@ -1,0 +1,13 @@
+{
+  "id": "AP-005",
+  "date": "2026-10-02",
+  "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Landing-Page-Horizontal-Comparison-2026-10-02.pdf",
+  "previous_current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/Bagger-McGee-Landing-Page-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "679f5f87590a212a1b0dd5a10ed584c1b88c72d4cf050ba112d03ffb61392259",
+    "git_blob_sha1": "62149940f9190573381620c6615f7928acae79f3",
+    "bytes": 849257
+  },
+  "authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
+  "original_approval_status": "Preserved unchanged"
+}

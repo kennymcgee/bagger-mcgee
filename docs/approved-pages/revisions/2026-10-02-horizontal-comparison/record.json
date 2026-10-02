@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-02",
+  "records": [
+    {
+      "id": "AP-005",
+      "date": "2026-10-02",
+      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Landing-Page-Horizontal-Comparison-2026-10-02.pdf",
+      "previous_current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/Bagger-McGee-Landing-Page-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "679f5f87590a212a1b0dd5a10ed584c1b88c72d4cf050ba112d03ffb61392259",
+        "git_blob_sha1": "62149940f9190573381620c6615f7928acae79f3",
+        "bytes": 849257
+      },
+      "authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
+      "original_approval_status": "Preserved unchanged"
+    },
+    {
+      "id": "AP-007",
+      "date": "2026-10-02",
+      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Search-Results-Horizontal-Comparison-2026-10-02.pdf",
+      "previous_current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/Bagger-McGee-Search-Results-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "e26bdff1c75d3c9d7434761a9f107a22cf607cb8b8a219680b75535e9defd21d",
+        "git_blob_sha1": "0725fe2983ab3fe0f676cc4a516d66f40f34a597",
+        "bytes": 834389
+      },
+      "authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
+      "original_approval_status": "Preserved unchanged"
+    },
+    {
+      "id": "AP-008",
+      "date": "2026-10-02",
+      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-horizontal-comparison/Bagger-McGee-Shipping-Score-Horizontal-Comparison-2026-10-02.pdf",
+      "previous_current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/Bagger-McGee-Shipping-Score-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "9e293c9218fee0ece48082123bacb419bb5e9037bd09cad1ce516420fcdff51c",
+        "git_blob_sha1": "5d1907a421d0b98dc7211389eb4bc7af92369946",
+        "bytes": 728135
+      },
+      "authorization": "Kenny requested restoring horizontal comparison rows beneath sortable headers using the original Search Results PDF and matching the Shipping Score scale badges to search results.",
+      "original_approval_status": "Preserved unchanged"
+    }
+  ],
+  "source_overlay": {
+    "path": "docs/approved-pages/source/Bagger-McGee-Horizontal-Comparison-Source-2026-10-02.zip",
+    "sha256": "1b1322ab5e851b85a3fa0f679172c001e0f9be8b27571e54d273158472bc594e",
+    "git_blob_sha1": "586bbd4dca7441e2a4d466d02a09fc600f85d06f",
+    "bytes": 13911
+  },
+  "checks": [
+    "TypeScript passed",
+    "Horizontal row positions checked at 1373px",
+    "Three complete single-page PDFs verified",
+    "Shipping scale visually checked against the shared badge"
+  ],
+  "scope": "User-requested layout correction; original approvals remain unchanged."
+}

@@ -22,3 +22,6 @@ Get my explicit approval before publishing the live website, spending money, del
 ## Shared navigation and preview standard — October 2, 2026
 
 Kenny approved the hamburger menu at every viewport width as the standard for all public pages, replacing the expanded desktop text navigation. All public pages must reuse the same shared header. Keep preview buttons and links interactive: real local routes and demonstrated actions, with explicit status for services that are not live. Never imply that preview accounts, transactions, or messages were actually processed. Maintain stable search-card positions for Shipping Score, coupon, Share, and Flag. Preserve dated revisions and original approval PDFs.
+
+## Horizontal comparison correction — October 2, 2026
+Kenny explicitly requested that Landing and Search Results retain the original approved horizontal listing rows beneath the orange sortable column headers at all viewport widths. Do not substitute stacked cards at responsive breakpoints. Use horizontal scrolling where needed. Shipping Score scale grades must reuse the shared shippingBadge style from search results.
