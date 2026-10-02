@@ -1,0 +1,18 @@
+{
+  "page_id": "AP-010",
+  "page": "Sign Up",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-shared-shell/Bagger-McGee-Sign-Up-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-hamburger-header/Bagger-McGee-Sign-Up-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "2abb116930d1ca49df9bf172e85678e2eaf978bd11711aa3dfd2ec8ea868b5f1",
+    "git_blob_sha1": "7b04226077146352b947064f77a60e4caa291fa8",
+    "bytes": 743817
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

@@ -1,0 +1,20 @@
+{
+  "page_id": "AP-006",
+  "page": "Quick Tutorial",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-shared-shell/Bagger-McGee-Quick-Tutorial-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-hamburger-header/Bagger-McGee-Quick-Tutorial-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "750b6f0fc41db8888696afe3393679bafa5ddefbf592a6504008d66a8d45b731",
+    "git_blob_sha1": "d4dd74796dba230abd1f76ec4ea69bb468f6dd8e",
+    "bytes": 743676
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths",
+    "Illustrative Find Parts button opens the sample bike search",
+    "Private preview note reflects local demo listing pages"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

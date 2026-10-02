@@ -1,0 +1,18 @@
+{
+  "page_id": "AP-001",
+  "page": "Contact Us",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-shared-shell/Bagger-McGee-Contact-Us-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-hamburger-header/Bagger-McGee-Contact-Us-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "38546941da756f66cb606a8446f2fe1d038ae07e81fd1050e9339de832217c23",
+    "git_blob_sha1": "7ed16776ec23d5cb2f84dbc7b0783fb3bb85931b",
+    "bytes": 717762
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

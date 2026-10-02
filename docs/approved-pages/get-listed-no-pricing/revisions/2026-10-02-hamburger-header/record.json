@@ -1,0 +1,18 @@
+{
+  "page_id": "AP-003",
+  "page": "Get Listed - no pricing",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-hamburger-header/Bagger-McGee-Get-Listed-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "e4e58fd3bcf5eccd3d8842701cf7ef973b6a2bc3beaf77cd9624ebc6ebef027f",
+    "git_blob_sha1": "f9f9ac6c8a0f4995b19aa861dd3b7377271236a5",
+    "bytes": 730836
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

@@ -1,0 +1,231 @@
+{
+  "revision": "2026-10-02-hamburger-header",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "pages": [
+    {
+      "page_id": "AP-001",
+      "page": "Contact Us",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-shared-shell/Bagger-McGee-Contact-Us-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-hamburger-header/Bagger-McGee-Contact-Us-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "38546941da756f66cb606a8446f2fe1d038ae07e81fd1050e9339de832217c23",
+        "git_blob_sha1": "7ed16776ec23d5cb2f84dbc7b0783fb3bb85931b",
+        "bytes": 717762
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-002",
+      "page": "FAQ",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-shared-shell/Bagger-McGee-FAQ-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-hamburger-header/Bagger-McGee-FAQ-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "63fcf5089a67259572d9c24c830a0c3936bed8bf25b264563a0b10d309b631c8",
+        "git_blob_sha1": "eea7fb53fc5f39a3c4c74d988096bb5e8485043f",
+        "bytes": 721739
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-003",
+      "page": "Get Listed - no pricing",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-hamburger-header/Bagger-McGee-Get-Listed-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "e4e58fd3bcf5eccd3d8842701cf7ef973b6a2bc3beaf77cd9624ebc6ebef027f",
+        "git_blob_sha1": "f9f9ac6c8a0f4995b19aa861dd3b7377271236a5",
+        "bytes": 730836
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-004",
+      "page": "Get Listed - with pricing tiers",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Pricing-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-hamburger-header/Bagger-McGee-Get-Listed-Pricing-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "842fa4de44277c079cea8c607daf5e3d283f04a7679f9363461502f51819f2a7",
+        "git_blob_sha1": "23df76dd6c45c3365ddcf29d888ce5892e36e69a",
+        "bytes": 730996
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-005",
+      "page": "Landing Page",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-shared-shell/Bagger-McGee-Landing-Page-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/Bagger-McGee-Landing-Page-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "22a77fc4ff30d6a00f83da8f1308ba029e507b83c5e2e5bee6023af825c77c32",
+        "git_blob_sha1": "2199da3dc4e4a4a7f64574224fbd5d8c834c3485",
+        "bytes": 849567
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths",
+        "Explicit card positions for Shipping Score, coupon, Share, and Flag",
+        "Retailer links open local demo listing detail; Shipping Score badges link to its explanation"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-006",
+      "page": "Quick Tutorial",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-shared-shell/Bagger-McGee-Quick-Tutorial-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-hamburger-header/Bagger-McGee-Quick-Tutorial-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "750b6f0fc41db8888696afe3393679bafa5ddefbf592a6504008d66a8d45b731",
+        "git_blob_sha1": "d4dd74796dba230abd1f76ec4ea69bb468f6dd8e",
+        "bytes": 743676
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths",
+        "Illustrative Find Parts button opens the sample bike search",
+        "Private preview note reflects local demo listing pages"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-007",
+      "page": "Search Results",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/Bagger-McGee-Search-Results-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "209557c045253713f983a0b4dd894232cc6042b0449911ef5ae66599a43d4235",
+        "git_blob_sha1": "a2835386a10b0259dc28e4c907c2139ab97d1ce3",
+        "bytes": 834748
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths",
+        "Explicit card positions for Shipping Score, coupon, Share, and Flag",
+        "Retailer links open local demo listing detail; Shipping Score badges link to its explanation"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-008",
+      "page": "Shipping Score",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/Bagger-McGee-Shipping-Score-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "7033f2895d39ebf15f68d4fbfaad4918655ca29b600862a9562782c0ec6fcbbc",
+        "git_blob_sha1": "c36b579bc30ffd4c594b063ab5a59fd8df1705a7",
+        "bytes": 719490
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths",
+        "Contact Us opens the Contact page; obsolete contact-at-launch wording removed"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-009",
+      "page": "Log In",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-shared-shell/Bagger-McGee-Log-In-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-hamburger-header/Bagger-McGee-Log-In-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "64194e81c13165539b4920c4a4333f8389b00a4f83082d88771c1df1d237d3fe",
+        "git_blob_sha1": "a7597cfbbe7c42debb47e3fe00c09e60e37a4097",
+        "bytes": 715888
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-010",
+      "page": "Sign Up",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-shared-shell/Bagger-McGee-Sign-Up-Consistent-Shell-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-hamburger-header/Bagger-McGee-Sign-Up-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "2abb116930d1ca49df9bf172e85678e2eaf978bd11711aa3dfd2ec8ea868b5f1",
+        "git_blob_sha1": "7b04226077146352b947064f77a60e4caa291fa8",
+        "bytes": 743817
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    },
+    {
+      "page_id": "AP-011",
+      "page": "Affiliate Disclosure",
+      "date": "2026-10-02",
+      "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "previous_current_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/affiliate-disclosure/revisions/2026-10-02-hamburger-header/Bagger-McGee-Affiliate-Disclosure-Hamburger-Header-2026-10-02.pdf",
+      "fingerprint": {
+        "sha256": "29ec7f65cd033658f2a070a61f3873932963f720ab325a924a8b5fd4abc0c676",
+        "git_blob_sha1": "32b101df29efb238080fb520d3dcadd7de499d63",
+        "bytes": 713696
+      },
+      "original_status": "Original approval preserved unchanged",
+      "changes": [
+        "Shared hamburger menu at all widths"
+      ],
+      "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+    }
+  ],
+  "source_archive": {
+    "path": "docs/approved-pages/source/Bagger-McGee-Editable-Source-Hamburger-2026-10-02.zip",
+    "sha256": "7c16e8bead74482f0641ca8a7afd3b5a3190040dfe176d0fd7f90b25caf3c265",
+    "git_blob_sha1": "ec6cd2aae7612d84d6263496296cbb6a2cc18244",
+    "bytes": 1026820
+  },
+  "verification": [
+    "TypeScript passed",
+    "11 complete one-page PDFs verified and visually inspected",
+    "Phone layout inspected at 390px; desktop layout at 1440px",
+    "Bike search, filter, sorting, coupon copy, share copy and listing navigation, reporting route, Shipping Score and Contact routes checked"
+  ],
+  "preview_limits": [
+    "Account creation and login are demonstrations",
+    "Contact and retailer-interest forms do not transmit messages",
+    "Report form saves locally only",
+    "About, Terms, and Privacy open preparation notices until pages are created",
+    "Listing details are fictional offers; no checkout or real retailer product URLs are invented"
+  ]
+}

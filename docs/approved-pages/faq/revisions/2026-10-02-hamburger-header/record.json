@@ -1,0 +1,18 @@
+{
+  "page_id": "AP-002",
+  "page": "FAQ",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-shared-shell/Bagger-McGee-FAQ-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-hamburger-header/Bagger-McGee-FAQ-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "63fcf5089a67259572d9c24c830a0c3936bed8bf25b264563a0b10d309b631c8",
+    "git_blob_sha1": "eea7fb53fc5f39a3c4c74d988096bb5e8485043f",
+    "bytes": 721739
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

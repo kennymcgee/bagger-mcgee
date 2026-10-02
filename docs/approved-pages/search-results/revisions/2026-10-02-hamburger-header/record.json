@@ -1,0 +1,20 @@
+{
+  "page_id": "AP-007",
+  "page": "Search Results",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/Bagger-McGee-Search-Results-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "209557c045253713f983a0b4dd894232cc6042b0449911ef5ae66599a43d4235",
+    "git_blob_sha1": "a2835386a10b0259dc28e4c907c2139ab97d1ce3",
+    "bytes": 834748
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths",
+    "Explicit card positions for Shipping Score, coupon, Share, and Flag",
+    "Retailer links open local demo listing detail; Shipping Score badges link to its explanation"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

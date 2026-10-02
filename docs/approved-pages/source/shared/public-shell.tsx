@@ -6,14 +6,13 @@ import styles from "./home.module.css";
 
 export function PublicHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [panel] = useState("");
-  const dialog = useRef<HTMLDialogElement>(null);
+  const menuButton = useRef<HTMLButtonElement>(null);
 
   return <div className={styles.headerDock}>
     <div className={styles.preview}>HARLEY + INDIAN PARTS ONLY • OEM + AFTERMARKET • NEW + USED • INDEPENDENT OF BOTH BRANDS</div>
-    <header className={styles.header}>
+    <header className={styles.header} onKeyDown={e=>{if(e.key === "Escape"){setMenuOpen(false);menuButton.current?.focus();}}}>
       <div className={styles.brandGroup}><Link href="/" aria-label="Bagger McGee home" onClick={()=>setMenuOpen(false)}><Image className={styles.logo} src="/brand/bagger-horizontal-v2.png" alt="Bagger McGee — bearded rider skull logo" width={2172} height={724} priority /></Link><p className={styles.brandTagline}>SEARCH ENGINE FOR<br/>HARLEY &amp; INDIAN PARTS</p></div>
-      <button className={styles.menuToggle} aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} aria-controls="main-navigation" onClick={()=>setMenuOpen(!menuOpen)}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={menuOpen ? "m6 6 12 12M6 18 18 6" : "M3 6h18M3 12h18M3 18h18"}/></svg></button>
+      <button ref={menuButton} type="button" className={styles.menuToggle} aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} aria-controls="main-navigation" onClick={()=>setMenuOpen(!menuOpen)}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={menuOpen ? "m6 6 12 12M6 18 18 6" : "M3 6h18M3 12h18M3 18h18"}/></svg></button>
       <nav id="main-navigation" className={menuOpen ? styles.navOpen : ""} aria-label="Main navigation" onKeyDown={e=>{if(e.key === "Escape")setMenuOpen(false);}}>
         <Link href="/help" onClick={()=>setMenuOpen(false)}>FAQ</Link>
         <Link href="/for-retailers" onClick={()=>setMenuOpen(false)}>GET LISTED</Link>
@@ -23,7 +22,6 @@ export function PublicHeader() {
         <Link className={styles.signupLink} href="/sign-up" onClick={()=>setMenuOpen(false)}>SIGN UP</Link>
       </nav>
     </header>
-    <dialog ref={dialog} className={styles.shareDialog} aria-labelledby="header-dialog-title"><div className={styles.dialogHeading}><span>BAGGER McGEE</span><button aria-label="Close" onClick={()=>dialog.current?.close()}>×</button></div><h2 id="header-dialog-title">{panel}</h2><p>{panel === "CONTACT" ? "Contact details will be available when the site launches." : "Rider accounts are coming with the live site. For now, you can explore parts without an account."}</p><button className={styles.primary} onClick={()=>dialog.current?.close()}>Back to browsing</button></dialog>
   </div>;
 }
 const footerInfo: Record<string, string> = {

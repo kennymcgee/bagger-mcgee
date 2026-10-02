@@ -1,0 +1,18 @@
+{
+  "page_id": "AP-011",
+  "page": "Affiliate Disclosure",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/affiliate-disclosure/revisions/2026-10-02-hamburger-header/Bagger-McGee-Affiliate-Disclosure-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "29ec7f65cd033658f2a070a61f3873932963f720ab325a924a8b5fd4abc0c676",
+    "git_blob_sha1": "32b101df29efb238080fb520d3dcadd7de499d63",
+    "bytes": 713696
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

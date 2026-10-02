@@ -22,11 +22,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/contact-us/original/10.2.26 - Bagger - Contact Us.pdf",
-      "current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-shared-shell/Bagger-McGee-Contact-Us-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "c8cd1533bed7134709ac6820388d7ac72161c9de4cbed9e486c20f65f1a1f963",
-      "current_pdf_git_blob_sha1": "16f3d6c4a618d66ad2f95d46deedeb8f22787c3f",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-hamburger-header/Bagger-McGee-Contact-Us-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "38546941da756f66cb606a8446f2fe1d038ae07e81fd1050e9339de832217c23",
+      "current_pdf_git_blob_sha1": "7ed16776ec23d5cb2f84dbc7b0783fb3bb85931b",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/contact-us/revisions/2026-10-02-shared-shell/Bagger-McGee-Contact-Us-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/contact-us/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - faq\\10.1.26 - Bagger - faq.pdf",
@@ -48,11 +50,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/faq/original/10.1.26 - Bagger - faq.pdf",
-      "current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-shared-shell/Bagger-McGee-FAQ-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "eb6f8462c8b4bdf0f3cf700b9971b7565d59d4bdd116a57f74fdb628252edf21",
-      "current_pdf_git_blob_sha1": "25a7db0baf7bfd1335aca28aa3529f1ac58b80de",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-hamburger-header/Bagger-McGee-FAQ-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "63fcf5089a67259572d9c24c830a0c3936bed8bf25b264563a0b10d309b631c8",
+      "current_pdf_git_blob_sha1": "eea7fb53fc5f39a3c4c74d988096bb5e8485043f",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/faq/revisions/2026-10-02-shared-shell/Bagger-McGee-FAQ-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/faq/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - get listed - no pricing\\10.1.26 - Bagger - Get Listed.pdf",
@@ -74,11 +78,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived; active-version selection pending",
       "repository_pdf_path": "docs/approved-pages/get-listed-no-pricing/original/10.1.26 - Bagger - Get Listed.pdf",
-      "current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "d9ab3e8b1ac5d9e49b24a0c5d3cf3de961a2ab13db7afd618d93f7b312dd35c5",
-      "current_pdf_git_blob_sha1": "444185c93962ff1f054ce62f5ded4c3e308fcc08",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-hamburger-header/Bagger-McGee-Get-Listed-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "e4e58fd3bcf5eccd3d8842701cf7ef973b6a2bc3beaf77cd9624ebc6ebef027f",
+      "current_pdf_git_blob_sha1": "f9f9ac6c8a0f4995b19aa861dd3b7377271236a5",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/get-listed-no-pricing/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - get listed - with pricing\\10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
@@ -100,11 +106,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived; active-version selection pending",
       "repository_pdf_path": "docs/approved-pages/get-listed-pricing/original/10.1.26 - Bagger - Get Listed with pricing tiers.pdf",
-      "current_pdf_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Pricing-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "5e027c085a30ac7eeff3c34f30ea9c855b5c4b2e1c01f0b363d909355697f823",
-      "current_pdf_git_blob_sha1": "6bdc3896da3310b48eec3a2e9ed8f69c96d357cd",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-hamburger-header/Bagger-McGee-Get-Listed-Pricing-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "842fa4de44277c079cea8c607daf5e3d283f04a7679f9363461502f51819f2a7",
+      "current_pdf_git_blob_sha1": "23df76dd6c45c3365ddcf29d888ce5892e36e69a",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-shared-shell/Bagger-McGee-Get-Listed-Pricing-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/get-listed-pricing/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - landing page\\10.1.26 - Bagger - Landing Page.pdf",
@@ -126,11 +134,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/landing-page/original/10.1.26 - Bagger - Landing Page.pdf",
-      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-shared-shell/Bagger-McGee-Landing-Page-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "67bbd3eb154f2de87fe94dae7f1a9f2d67bf9415ab2ca9b374918f207bc1f034",
-      "current_pdf_git_blob_sha1": "bb784f3ae372c829d6181772092325534357027a",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/Bagger-McGee-Landing-Page-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "22a77fc4ff30d6a00f83da8f1308ba029e507b83c5e2e5bee6023af825c77c32",
+      "current_pdf_git_blob_sha1": "2199da3dc4e4a4a7f64574224fbd5d8c834c3485",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/landing-page/revisions/2026-10-02-shared-shell/Bagger-McGee-Landing-Page-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/landing-page/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - quick tutorial\\10.1.26 - Bagger - Quick Tutorial.pdf",
@@ -152,11 +162,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/quick-tutorial/original/10.1.26 - Bagger - Quick Tutorial.pdf",
-      "current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-shared-shell/Bagger-McGee-Quick-Tutorial-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "160c2aee83121f17a4689dd912f7fbce7c099d8fa455e2124c6ec99d512da74d",
-      "current_pdf_git_blob_sha1": "d0843ff9c1bc2b8bd0b9f59a4b78045279725fc1",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-hamburger-header/Bagger-McGee-Quick-Tutorial-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "750b6f0fc41db8888696afe3393679bafa5ddefbf592a6504008d66a8d45b731",
+      "current_pdf_git_blob_sha1": "d4dd74796dba230abd1f76ec4ea69bb468f6dd8e",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-shared-shell/Bagger-McGee-Quick-Tutorial-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/quick-tutorial/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - search results\\10.1.26 - Bagger - Search Results.pdf",
@@ -178,11 +190,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/search-results/original/10.1.26 - Bagger - Search Results.pdf",
-      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "d4e3173309e232be67da5a744ffc591aa72da762a9dfe360937b4ec9a1de942f",
-      "current_pdf_git_blob_sha1": "23e7c57148484456dbe7b6e9fb32efd6be914031",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/Bagger-McGee-Search-Results-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "209557c045253713f983a0b4dd894232cc6042b0449911ef5ae66599a43d4235",
+      "current_pdf_git_blob_sha1": "a2835386a10b0259dc28e4c907c2139ab97d1ce3",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/search-results/revisions/2026-10-02-shared-shell/Bagger-McGee-Search-Results-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/search-results/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - shipping score\\10.1.26 - Bagger - Shipping Score.pdf",
@@ -204,11 +218,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/shipping-score/original/10.1.26 - Bagger - Shipping Score.pdf",
-      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "b835acbcde4876f76f30b366b7315d3c95dcc2e454c3d2dfc6b60343a66040c9",
-      "current_pdf_git_blob_sha1": "f28f151f87ab0ab6625559ffb099160ee581a564",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/Bagger-McGee-Shipping-Score-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "7033f2895d39ebf15f68d4fbfaad4918655ca29b600862a9562782c0ec6fcbbc",
+      "current_pdf_git_blob_sha1": "c36b579bc30ffd4c594b063ab5a59fd8df1705a7",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Log in.pdf",
@@ -230,11 +246,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/log-in/original/10.2.26 - Bagger - Log in.pdf",
-      "current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-shared-shell/Bagger-McGee-Log-In-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "b6d7a76d0f2f465a235a4de83b2c67027907d72abf525d173cacdf09507f794e",
-      "current_pdf_git_blob_sha1": "d85edaae67e06af98c85159c24e8925ade8a60b1",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-hamburger-header/Bagger-McGee-Log-In-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "64194e81c13165539b4920c4a4333f8389b00a4f83082d88771c1df1d237d3fe",
+      "current_pdf_git_blob_sha1": "a7597cfbbe7c42debb47e3fe00c09e60e37a4097",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-shared-shell/Bagger-McGee-Log-In-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/log-in/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "relative_path": "PAGES - sign up - log in\\10.2.26 - Bagger - Sign Up.pdf",
@@ -256,11 +274,13 @@
       "approval_evidence": "Kenny identifies this archive as approved; individual approval messages not independently verified",
       "version_status": "Archived approved reference per Kenny",
       "repository_pdf_path": "docs/approved-pages/sign-up/original/10.2.26 - Bagger - Sign Up.pdf",
-      "current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-shared-shell/Bagger-McGee-Sign-Up-Consistent-Shell-2026-10-02.pdf",
-      "current_pdf_sha256": "348a9337462d49fe7da99058f7632d2312e17b2c18eb55f3aef9d23eb97e7083",
-      "current_pdf_git_blob_sha1": "ecbc4f001358a09ea831aefab756f464b8b4a9fd",
-      "revision_authorization": "Kenny requested Sign Up header/footer continuity across every completed page on October 2, 2026.",
-      "original_pdf_status": "Preserved unchanged; current capture linked separately"
+      "current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-hamburger-header/Bagger-McGee-Sign-Up-Hamburger-Header-2026-10-02.pdf",
+      "current_pdf_sha256": "2abb116930d1ca49df9bf172e85678e2eaf978bd11711aa3dfd2ec8ea868b5f1",
+      "current_pdf_git_blob_sha1": "7b04226077146352b947064f77a60e4caa291fa8",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "original_pdf_status": "Preserved unchanged; current capture linked separately",
+      "previous_current_pdf_path": "docs/approved-pages/sign-up/revisions/2026-10-02-shared-shell/Bagger-McGee-Sign-Up-Consistent-Shell-2026-10-02.pdf",
+      "current_revision_record_path": "docs/approved-pages/sign-up/revisions/2026-10-02-hamburger-header/record.json"
     },
     {
       "id": "AP-011",
@@ -270,7 +290,7 @@
       "source_chat_directory": "C:\\Users\\kenwe\\Documents\\Codex\\2026-10-02\\continue-collaborating-with-kenny-on-bagger-3",
       "version_status": "Approved design and wording; not a live deployment",
       "repository_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
-      "current_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+      "current_pdf_path": "docs/approved-pages/affiliate-disclosure/revisions/2026-10-02-hamburger-header/Bagger-McGee-Affiliate-Disclosure-Hamburger-Header-2026-10-02.pdf",
       "filename": "Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
       "pages": 1,
       "bytes": 722808,
@@ -295,7 +315,12 @@
         "Payment never buys influence.",
         "Existing FAQ/pricing commercial wording remains pending reconciliation.",
         "Fictional offers and participation are demonstration content."
-      ]
+      ],
+      "previous_current_pdf_path": "docs/approved-pages/affiliate-disclosure/original/Bagger-McGee-Affiliate-Disclosure-Approved-2026-10-02.pdf",
+      "current_pdf_sha256": "29ec7f65cd033658f2a070a61f3873932963f720ab325a924a8b5fd4abc0c676",
+      "current_pdf_git_blob_sha1": "32b101df29efb238080fb520d3dcadd7de499d63",
+      "revision_authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+      "current_revision_record_path": "docs/approved-pages/affiliate-disclosure/revisions/2026-10-02-hamburger-header/record.json"
     }
   ],
   "source_archive_sha256": "23f90526c93a5539efbe2e5cd1081eb009666677283a899de34dd8c1390b386f",
@@ -480,5 +505,11 @@
       "footerMatchesSignUp": true,
       "noHorizontalOverflow": true
     }
-  ]
+  ],
+  "current_source_archive_path": "docs/approved-pages/source/Bagger-McGee-Editable-Source-Hamburger-2026-10-02.zip",
+  "current_source_archive_fingerprint": {
+    "sha256": "7c16e8bead74482f0641ca8a7afd3b5a3190040dfe176d0fd7f90b25caf3c265",
+    "git_blob_sha1": "ec6cd2aae7612d84d6263496296cbb6a2cc18244",
+    "bytes": 1026820
+  }
 }

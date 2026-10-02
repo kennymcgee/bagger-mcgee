@@ -1,0 +1,18 @@
+{
+  "page_id": "AP-009",
+  "page": "Log In",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-shared-shell/Bagger-McGee-Log-In-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/log-in/revisions/2026-10-02-hamburger-header/Bagger-McGee-Log-In-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "64194e81c13165539b4920c4a4333f8389b00a4f83082d88771c1df1d237d3fe",
+    "git_blob_sha1": "a7597cfbbe7c42debb47e3fe00c09e60e37a4097",
+    "bytes": 715888
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}

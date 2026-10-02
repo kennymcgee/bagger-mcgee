@@ -1,0 +1,19 @@
+{
+  "page_id": "AP-008",
+  "page": "Shipping Score",
+  "date": "2026-10-02",
+  "authorization": "Kenny requested hamburger navigation as the standard on every previous and future public page, search-result icon alignment fixes, and clickable previews.",
+  "previous_current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-shared-shell/Bagger-McGee-Shipping-Score-Consistent-Shell-2026-10-02.pdf",
+  "current_pdf_path": "docs/approved-pages/shipping-score/revisions/2026-10-02-hamburger-header/Bagger-McGee-Shipping-Score-Hamburger-Header-2026-10-02.pdf",
+  "fingerprint": {
+    "sha256": "7033f2895d39ebf15f68d4fbfaad4918655ca29b600862a9562782c0ec6fcbbc",
+    "git_blob_sha1": "c36b579bc30ffd4c594b063ab5a59fd8df1705a7",
+    "bytes": 719490
+  },
+  "original_status": "Original approval preserved unchanged",
+  "changes": [
+    "Shared hamburger menu at all widths",
+    "Contact Us opens the Contact page; obsolete contact-at-launch wording removed"
+  ],
+  "scope": "Dated design revision; live accounts, checkout, message delivery and retailer participation are not established."
+}
