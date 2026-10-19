@@ -516,6 +516,38 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
   @media(max-width:1000px){.step-head{align-items:center}}
   .dealer .wrap > div:nth-child(2){width:max-content;max-width:100%;margin-left:auto;margin-right:auto}
   .dealer p{margin-left:auto;margin-right:auto}
+
+  /* ---- PHONE SAFETY NET (Oct 19 2026) - applies only below 520px ---- */
+  @media(max-width:520px){
+    header .wrap.nav{gap:10px}
+    header .wrap{padding:0 14px}
+    .brand{gap:10px;min-width:0}
+    header .brand-mark{height:56px}
+    header .brand-name{font-size:19px}
+    header .brand-tag{font-size:8.5px;letter-spacing:.14em}
+    .menu-toggle{margin-left:auto;padding:8px}
+    .hero .wrap{grid-template-columns:1fr;gap:36px}
+    .hero .wrap>*{min-width:0}
+    .fields{grid-template-columns:1fr}
+    .bike-link{white-space:normal}
+    h1{overflow-wrap:break-word}
+    .foot-top{grid-template-columns:1fr 1fr;gap:22px}
+    .foot-top>*{min-width:0}
+    .gl-free{max-width:100%}
+  }
+  @media(max-width:520px){
+    .dealer .wrap>*{min-width:0}
+    .fit{white-space:normal}
+    .eyebrow{white-space:normal}
+  }
+  @media(max-width:520px){
+    .demo-bar .fit{white-space:normal}
+    .dealer .wrap{grid-template-columns:1fr;text-align:center}
+    .dealer svg{margin:0 auto}
+    .dealer p{margin-left:auto;margin-right:auto}
+  }
+    .dealer .wrap>div:nth-child(2){width:auto}
+    .bike-link{display:block;white-space:normal;text-align:left}
 </style>
 </head>
 <body>
