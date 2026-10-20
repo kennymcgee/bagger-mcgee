@@ -941,6 +941,30 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
       if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(code).then(done,fallback); } else { fallback(); }
     });
   });
+
+  /* ---- read bike from URL, retitle + reprice demo offers ---- */
+  (function(){
+    var q=new URLSearchParams(location.search);
+    var make=q.get('make'), year=q.get('year'), model=q.get('model');
+    if(!make) return;
+    var parts=[]; if(year) parts.push(year); if(make) parts.push(make); if(model) parts.push(model);
+    var bike=parts.join(' ');
+    var bt=document.getElementById('bikeTxt'); if(bt) bt.textContent=bike;
+    var t=document.querySelector('title'); if(t) t.textContent='Bagger McGee - '+bike+' Parts';
+    var h=0; for(var i=0;i<bike.length;i++){ h=(h*31+bike.charCodeAt(i))>>>0; }
+    var factor=0.85+((h>>>3)%31)/100;          /* 0.85 - 1.15 */
+    var count=90+(h%75);                        /* 90 - 164 offers */
+    var stat=document.querySelector('.sum-count');
+    if(stat){ stat.innerHTML='<b>'+count+' offers</b> found &middot; showing 1&ndash;12'; }
+    document.querySelectorAll('tbody tr[data-price]').forEach(function(r){
+      var p=parseFloat(r.getAttribute('data-price'))*factor;
+      r.setAttribute('data-price',p.toFixed(2));
+      var pc=r.querySelector('.price');
+      if(pc) pc.textContent='$'+p.toFixed(2);
+      var af=r.querySelector('.after');
+      if(af){ af.textContent=af.textContent.replace(/\$[0-9,.]+/, '$'+(p*0.9).toFixed(2)); }
+    });
+  })();
 </script>
 
 </body>

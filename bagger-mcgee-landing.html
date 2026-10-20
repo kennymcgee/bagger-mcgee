@@ -602,13 +602,13 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
       <p class="sub">Pick your ride, we handle the rest.</p>
       <div class="fields">
         <div class="field"><label>Make</label>
-          <select><option>Harley-Davidson</option><option>Indian</option></select></div>
+          <select id="bikeMake"><option>Harley-Davidson</option><option>Indian</option></select></div>
         <div class="field"><label>Year</label>
-          <select><option>2023</option><option>2022</option><option>2021</option><option>2020</option></select></div>
+          <select id="bikeYear"><option>2023</option><option>2022</option><option>2021</option><option>2020</option></select></div>
         <div class="field"><label>Model</label>
-          <select><option>Road Glide</option><option>Street Glide</option><option>Chieftain</option><option>Chief</option></select></div>
+          <select id="bikeModel"><option>Road Glide</option><option>Street Glide</option><option>Chieftain</option><option>Chief</option></select></div>
       </div>
-      <button class="search-btn" onclick="location.href='bagger-mcgee-search-results-v1.html'">Show parts for my bike
+      <button class="search-btn" id="showPartsBtn">Show parts for my bike
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M9 7h8v8"/></svg>
       </button>
       <p class="search-note">Search results can be filtered/sorted by Category, Retailer, Condition, Price and <b>Shipping Score</b>.</p>
@@ -1019,6 +1019,17 @@ document.querySelectorAll('.faq details').forEach(function(d){
       if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(code).then(done,fallback); } else { fallback(); }
     });
   });
+
+  /* ---- bike selector wiring ---- */
+  (function(){
+    var b=document.getElementById('showPartsBtn');
+    b.addEventListener('click',function(){
+      var m=document.getElementById('bikeMake').value,
+          y=document.getElementById('bikeYear').value,
+          d=document.getElementById('bikeModel').value;
+      location.href='bagger-mcgee-search-results-v1.html?make='+encodeURIComponent(m)+'&year='+encodeURIComponent(y)+'&model='+encodeURIComponent(d);
+    });
+  })();
 </script>
 </body>
 </html>
