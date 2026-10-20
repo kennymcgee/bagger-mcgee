@@ -544,6 +544,8 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     .foot-brand .brand-mark{height:64px;margin:0}
     .foot-brand .brand-name{font-size:27px}
     .foot-brand .brand-tagline{white-space:normal;text-align:center}
+  /* ---- bike modal layout guard (Oct 20 2026) ---- */
+  .f-select,.bike-sel{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
 </style>
 </head>
 <body>
@@ -972,7 +974,10 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
       for(var f in BIKES[make]){ var ms=BIKES[make][f].filter(function(m){ return expand(m[1]).indexOf(yr)>-1; }); if(!ms.length) continue;
         var og=document.createElement('optgroup'); og.label=f;
         ms.forEach(function(m){ var o=document.createElement('option'); o.textContent=m[0]; if(m[0]===sel) o.selected=true; og.appendChild(o); });
-        md.appendChild(og); } }
+        md.appendChild(og); }
+      var ph=document.createElement('option'); ph.value=''; ph.textContent='Select model';
+      if(!sel) ph.selected=true;
+      md.insertBefore(ph, md.firstChild); }
     function fillYears(sel){ var ys=yearsFor(mk.value); y.innerHTML=''; ys.forEach(function(yy){ var o=document.createElement('option'); o.textContent=yy; o.value=yy; if(yy===sel) o.selected=true; y.appendChild(o); }); }
     mk.addEventListener('change', function(){ fillYears(); fillModels(); });
     y.addEventListener('change', function(){ fillModels(); });

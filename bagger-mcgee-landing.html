@@ -553,6 +553,12 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     .foot-brand .brand-mark{height:64px;margin:0}
     .foot-brand .brand-name{font-size:27px}
     .foot-brand .brand-tagline{white-space:normal;text-align:center}
+  /* ---- bike selector layout guard (Oct 20 2026) ---- */
+  @media(min-width:641px){
+    .fields{grid-template-columns:minmax(0,1.2fr) minmax(0,.55fr) minmax(0,1.5fr)}
+  }
+  .field{min-width:0}
+  .field select{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
 </style>
 </head>
 <body>
@@ -1041,7 +1047,9 @@ document.querySelectorAll('.faq details').forEach(function(d){
       for(var f in BIKES[make]){ var ms=BIKES[make][f].filter(function(m){ return expand(m[1]).indexOf(y)>-1; }); if(!ms.length) continue;
         var og=document.createElement('optgroup'); og.label=f;
         ms.forEach(function(m){ var o=document.createElement('option'); o.textContent=m[0]; og.appendChild(o); });
-        BD.appendChild(og); } }
+        BD.appendChild(og); }
+      var ph=document.createElement('option'); ph.value=''; ph.textContent='Select model'; ph.selected=true;
+      BD.insertBefore(ph, BD.firstChild); }
     function fillYears(){ var ys=yearsFor(BM.value); BY.innerHTML=''; ys.forEach(function(y){ var o=document.createElement('option'); o.textContent=y; o.value=y; BY.appendChild(o); }); }
     BM.addEventListener('change', function(){ fillYears(); fillModels(); });
     BY.addEventListener('change', fillModels);
