@@ -1183,15 +1183,21 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
   }
   // smart search typeahead (mock data for the preview build)
   var smartQ=document.getElementById('smartQ'), sugg=document.getElementById('sugg');
-  var MOCK=[
-    {t:'56500161', m:'OEM part number', g:'Part numbers'},
-    {t:'56500161 - Lowering kit, rear', m:'OEM - New', g:'Part numbers'},
-    {t:'56500', m:'8 matching part families', g:'Part numbers'},
-    {t:'Street Glide seat lowering kit', m:'34 offers from $89.99', g:'Descriptions'},
-    {t:'Street Glide lowering block', m:'12 offers from $52.40', g:'Descriptions'},
-    {t:'Monster Ape Handlebar', m:'142 offers from $74.99', g:'Descriptions'},
-    {t:'Ape hanger 16" handlebar', m:'27 offers from $96.15', g:'Descriptions'}
-  ];
+  /* live suggestion index built from the actual table (never goes stale) */
+  var MOCK=(function(){
+    var parts={}, brands={}, rows=document.querySelectorAll('tbody tr[data-price]');
+    rows.forEach(function(r){
+      var n=r.querySelector('.pname').textContent.trim(),
+          b=r.querySelector('.pbrand').textContent.trim(),
+          p=parseFloat(r.dataset.price);
+      if(!parts[n]) parts[n]={n:0,min:p}; parts[n].n++; if(p<parts[n].min) parts[n].min=p;
+      if(!brands[b]) brands[b]={n:0,min:p}; brands[b].n++; if(p<brands[b].min) brands[b].min=p;
+    });
+    var out=[];
+    Object.keys(parts).forEach(function(k){ var x=parts[k]; out.push({t:k, m:x.n+(x.n>1?' offers':' offer')+' from $'+x.min.toFixed(2), g:'Part names'}); });
+    Object.keys(brands).forEach(function(k){ var x=brands[k]; out.push({t:k, m:x.n+(x.n>1?' listings':' listing')+' from $'+x.min.toFixed(2), g:'Brands'}); });
+    return out;
+  })();
   function renderSugg(list){
     if(!list.length){ sugg.classList.remove('open'); return; }
     var html='', lastG='';
@@ -1208,20 +1214,32 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
   });
   smartQ.addEventListener('focus', function(){ if(smartQ.value.trim()) renderSugg(MOCK.filter(function(it){ return it.t.toLowerCase().indexOf(smartQ.value.trim().toLowerCase())>-1; })); });
   smartQ.addEventListener('blur', function(){ setTimeout(function(){ sugg.classList.remove('open'); },180); });
+  function runSearch(){
+    query=smartQ.value.trim().toLowerCase();
+    sugg.classList.remove('open');
+    applyFilters();
+  }
+  smartQ.addEventListener('keydown', function(e){ if(e.key==='Enter'){ e.preventDefault(); runSearch(); } });
+  document.getElementById('smartGo').addEventListener('click', runSearch);
   sugg.addEventListener('mousedown', function(e){
     var it=e.target.closest('.sg-item'); if(!it) return;
     e.preventDefault();
-    smartQ.value=it.dataset.v; sugg.classList.remove('open');
+    smartQ.value=it.dataset.v; sugg.classList.remove('open'); runSearch();
   });
 
   // live filters
   var fCat=document.getElementById('fCat'), fRet=document.getElementById('fRet'),
       fCond=document.getElementById('fCond'),
       fScore=document.getElementById('fScore'), fBrand=document.getElementById('fBrand'), noResults=document.getElementById('noResults');
+  var query='';
   function applyFilters(){
     var cat=fCat.value, ret=fRet.value, cond=fCond.value, score=fScore.value, brand=fBrand.value, shown=0;
     body.querySelectorAll('tr').forEach(function(r){
       var show=true;
+      if(query){
+        var hay=r.querySelector('.pname').textContent+' '+r.querySelector('.pbrand').textContent+' '+r.querySelector('.vendor').textContent;
+        if(hay.toLowerCase().indexOf(query)===-1) show=false;
+      }
       if(cat!=='all' && r.dataset.cat!==cat) show=false;
       if(show && brand!=='all' && r.dataset.brand!==brand) show=false;
       if(show && ret!=='all' && r.querySelector('.vendor').textContent.trim()!==ret) show=false;
@@ -1242,6 +1260,8 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
       if(show) shown++;
     });
     noResults.classList.toggle('show', shown===0);
+    var stat=document.querySelector('.sum-count'), total=body.querySelectorAll('tr[data-price]').length;
+    if(stat) stat.innerHTML='<b>'+shown+' offers</b> '+(shown===total ? 'found · showing 1–'+total : 'match your search &amp; filters');
   }
   [fCat,fBrand,fRet,fCond,fScore].forEach(function(x){ x.addEventListener('change', applyFilters); });
   // column-header sorting: click header toggles asc/desc, orange arrow shows state
@@ -1279,6 +1299,7 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
   sortBy('price','asc');
   document.getElementById('fClear').addEventListener('click', function(){
     [fCat,fBrand,fRet,fCond,fScore].forEach(function(x){ x.value='all'; });
+    query=''; smartQ.value='';
     applyFilters();
   });
   // ---- share & flag windows ----
