@@ -627,7 +627,7 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     </div>
 
     <div class="sum-bar">
-      <h1>Parts &amp; Gear &middot; <button class="bike-link" id="bikeLink" title="Change bike" aria-label="Change bike"><span id="bikeTxt">2023 Harley-Davidson Road Glide Special</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg></button></h1>
+      <h1>Parts &amp; Gear &middot; <button class="bike-link" id="bikeLink" title="Change bike" aria-label="Change bike"><span id="bikeTxt">All bikes</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg></button></h1>
       <span class="chip" id="fitBadge" style="background:var(--navy);color:var(--cream)">&#10003; VERIFIED FITMENT</span>
       <span class="sum-count"><b>142 offers</b> found &middot; showing 1&ndash;12</span>
     </div>
@@ -1371,7 +1371,11 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
   (function(){
     var q=new URLSearchParams(location.search);
     var make=q.get('make'), year=q.get('year'), model=q.get('model');
-    if(!make) return;
+    if(!make){
+      var fb=document.getElementById('fitBadge');
+      if(fb) fb.style.display='none';
+      return;
+    }
     var parts=[]; if(year) parts.push(year); if(make) parts.push(make); if(model) parts.push(model);
     var bike=parts.join(' ');
     var bt=document.getElementById('bikeTxt'); if(bt) bt.textContent=bike;
