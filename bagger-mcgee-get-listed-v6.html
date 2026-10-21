@@ -346,6 +346,17 @@
   .no-results.show{display:block}
   @media(max-width:900px){.fp-grid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:640px){.fp-grid{grid-template-columns:1fr}}
+
+  /* ---- FOOTER PARALLEL FIX (Oct 21 2026): SEARCH / LEGAL / COMPANY stay in one row until 860px ---- */
+  @media(max-width:1080px){
+    .foot-top{gap:22px}
+    .foot-top > div:nth-child(2),.foot-top > div:nth-child(3),.foot-top > div:nth-child(4){padding-left:18px}
+  }
+  @media(max-width:860px){
+    .foot-top{grid-template-columns:1fr 1fr;gap:22px;row-gap:34px}
+    .foot-top > div:nth-child(2),.foot-top > div:nth-child(3),.foot-top > div:nth-child(4),.foot-cta{border-left:none;padding-left:0}
+    .foot-top>*{min-width:0}
+  }
 </style>
 <style>
 /* ============================================================
@@ -662,6 +673,7 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     .dealer svg{margin:0 auto}
     .dealer p{margin-left:auto;margin-right:auto}
   }
+  @media(max-width:520px){
     .dealer .wrap>div:nth-child(2){width:auto}
     .bike-link{display:block;white-space:normal;text-align:left}
     .foot-top{grid-template-columns:1fr 1fr;row-gap:34px}
@@ -669,6 +681,7 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     .foot-brand .brand-mark{height:64px;margin:0}
     .foot-brand .brand-name{font-size:27px}
     .foot-brand .brand-tagline{white-space:normal;text-align:center}
+  }
 </style>
 
 </head>
