@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -573,7 +571,6 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
 .choose .arr{font-family:'Inter',sans-serif;font-size:14px;line-height:1}
 .plan.sel .choose{background:var(--blue);color:var(--cream)}
 
-
 .gl-fair{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:44px;margin:0 0 24px;padding:0}
 .gl-fair li{position:relative;padding-left:22px;font-size:16px;line-height:1.6;color:#D4DDEA;min-width:0}
 .gl-fair li::before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;border-radius:2px;background:var(--orange)}
@@ -785,7 +782,7 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     </div>
     <div class="gl-done" id="glDone" hidden>
       <h3>Request received.</h3>
-      <p>A real person takes it from here. We review your details and reach out shortly to talk through your custom plan - nothing is final until we agree on it.</p>
+      <p>A real person takes it from here. We review your details and contact you within two business days to finalize your custom plan. Once the plan is agreed, your catalog goes live.</p>
     </div>
   </div>
 </section>
@@ -861,7 +858,6 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
   </div>
 </div>
 <div class="toast" id="toast"></div>
-
 
 <script>
 (function(){
@@ -1092,10 +1088,12 @@ document.querySelectorAll('.faq details').forEach(function(d){
   });
 })();
 </script>
-  
+
   <style id="lbTopCss">.lb-top{width:36px;height:36px;border-radius:10px;border:1px solid rgba(244,237,225,.35);background:#f4ede1;color:#2E4A72;font:700 10px/1 Oswald,'Arial Narrow',sans-serif;letter-spacing:.09em;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 2px 5px rgba(27,44,71,.18),inset 1px 1px 1px rgba(255,255,255,.65),inset -1px -1px 2px rgba(27,44,71,.07);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .25s,transform .25s;position:relative;margin-left:14px;flex:0 0 auto}.lb-top.show{opacity:1;pointer-events:auto;transform:none}.lb-top:hover{transform:translateY(-1px);box-shadow:3px 3px 7px rgba(27,44,71,.24),inset 1px 1px 1px rgba(255,255,255,.7)}.lb-top:active{box-shadow:inset 2px 2px 4px rgba(27,44,71,.25)}.lb-top::after{content:'Take me to the top!';position:absolute;top:calc(100% + 8px);right:0;background:#2E4A72;color:#f4ede1;font:600 11px/1.2 Arial,sans-serif;letter-spacing:0;padding:7px 10px;border-radius:8px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s;z-index:1200}.lb-top:hover::after,.lb-top:focus-visible::after{opacity:1}@media(max-width:900px){.lb-top{width:34px;height:34px;margin-left:8px}}</style>
 <script id="lbTopJs">
 (function(){function lbInit(){var hdr=document.querySelector('.wrap.nav')||document.querySelector('header');if(!hdr)return;var b=document.createElement('button');b.type='button';b.className='lb-top';b.id='lbTopBtn';b.title='Take me to the top!';b.setAttribute('aria-label','Take me to the top!');b.textContent='TOP';var tg=hdr.querySelector('.menu-toggle');hdr.appendChild(b);var y=function(){b.classList.toggle('show',(window.scrollY||document.documentElement.scrollTop)>320)};window.addEventListener('scroll',y,{passive:true});y();b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});var lbHere=(window.lbPage||(location.pathname.split('/').pop()||'')).toLowerCase();document.addEventListener('click',function(ev){var a=ev.target&&ev.target.closest?ev.target.closest('a'):null;if(!a)return;var href=a.getAttribute('href')||'';if(!href||href.charAt(0)==='#')return;var base=href.split('#')[0].split('?')[0].split('/').pop().toLowerCase();var isBrand=a.classList.contains('brand');if(isBrand&&lbHere.indexOf('landing')>-1){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'});return}if(base&&base===lbHere&&!href.split('#')[1]&&(window.scrollY||document.documentElement.scrollTop)>320){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'})}},true)}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lbInit)}else{lbInit()}})();
 </script>
 </body>
 </html>
+```
+
