@@ -207,7 +207,7 @@
   }
 
   /* header collapses to hamburger BEFORE the nav gets cramped */
-  @media(max-width:1399px){
+  @media(max-width:1250px){
     .menu-toggle{display:block;margin-left:auto}
     .hdr-menu{display:none}
     header .wrap.nav{position:relative;height:auto;min-height:64px;padding-top:10px;padding-bottom:10px}
@@ -854,6 +854,10 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
     .foot-brand .brand-name{font-size:27px}
     .foot-brand .brand-tagline{white-space:normal;text-align:center}
   }
+  /* MEMBERS ONLY treatment on hero benefits (Oct 22 2026) */
+  .members-wrap{margin-top:26px}
+  .members-note{display:inline-block;margin-bottom:12px;background:rgba(244,237,225,.12);border:1px solid rgba(244,237,225,.35);color:#f4ede1;font:700 10px/1.4 Oswald,'Arial Narrow',sans-serif;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px;border-radius:8px}
+  .members-wrap .hero-benefits{opacity:.55;filter:grayscale(.35)}
 </style>
 </head>
 <body>
@@ -898,13 +902,16 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
             <a class="jump-btn" href="#signup"><span>Sign Up</span></a>
           </div>
         </div>
-        <ul class="hero-benefits">
+        <div class="members-wrap">
+            <div class="members-note">Members only &mdash; a free account unlocks all of this</div>
+            <ul class="hero-benefits">
           <li><b>Your garage</b> - every bike ready for your next search</li>
           <li><b>Saved parts &amp; searches</b> - pick up where you left off</li>
           <li><b>Price alerts</b> - know when the part you want drops</li>
           <li><b>Your rider voice</b> - star ratings that steer other riders</li>
           <li><b>Member newsletter</b> - exclusive coupons, every week</li>
         </ul>
+          </div>
       </div>
     </div>
   </section>
@@ -964,12 +971,14 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
             <p class="qt-lead">Add a bike, then check the rides you want to search for. Matching parts come back grouped by bike, so you always know which ride each part fits.</p>
             <p class="qt-lead">Add a nickname to each ride so it&rsquo;s easy to find. Your garage lives in your account, ready for every search.</p>
           </aside>
-          <div class="disc-card qt-panel">
+          <div class="disc-card qt-panel mo-lock">
+            <div class="mo-ribbon"><span>Members only</span></div>
+            <div class="mo-body">
             <div class="qt-label">Add a bike</div>
             <div class="fields gk-fields">
               <div class="field">
                 <label for="gkMake">Make</label>
-                <select id="gkMake"><option selected>Harley-Davidson</option><option>Indian Motorcycle</option></select>
+                <select id="gkMake"><option selected>Harley-Davidson</option><option>Indian</option></select>
               </div>
               <div class="field">
                 <label for="gkYear">Year</label>
@@ -986,7 +995,9 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
             </div>
             <button class="gk-add" id="gkAdd" type="button"><span>Add Bike</span></button>
             <div class="gk-list" id="gkList"></div>
+            </div>
           </div>
+          <p class="mo-note">Members only &mdash; <a href="#signup">join free</a> to build your garage.</p>
         </div>
       </div>
 
@@ -999,7 +1010,9 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
             <p class="qt-lead">Reviews cover a purchase or a direct experience - shipping, communication, service, and whether the order matched the listing. Leave out order numbers, addresses, and other private details.</p>
             <p class="qt-lead"><b>Every review is checked by a real person at Bagger McGee before it appears.</b></p>
           </aside>
-          <div class="ct-card">
+          <div class="ct-card mo-lock">
+            <div class="mo-ribbon"><span>Members only</span></div>
+            <div class="mo-body">
             <span class="sh-kicker">Retailer review</span>
             <h3>Rate your retailer</h3>
             <div class="rv-grid">
@@ -1019,54 +1032,58 @@ th{background:#EBE2D2;box-shadow:inset 0 3px 6px rgba(139,125,98,.12)}
             <div class="ct-field"><label for="rvExp">Your Experience</label><textarea class="ct-area" id="rvExp" placeholder="Tell other riders about your experience with this retailer."></textarea></div>
             <button class="ct-send" type="button" id="rvBtn"><span>Email Review for Approval</span></button>
                       </div>
+          </div>
+          <p class="mo-note">Members only &mdash; <a href="#signup">join free</a> to review a retailer.</p></div>
         </div>
       </div>
 
+      <div class="wrap">
       <div class="faq-block faq-b2" id="reasons">
         <span class="sh-kicker">More reasons to join</span>
         <h2 class="qt-h2">Less repeating. More riding.</h2>
         <div class="auth-cards">
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">01 / Your garage</span>
+            <span class="auth-cardnum">1 / Your garage</span>
             <h3>Add all your bikes</h3>
             <p>Keep the make, year, and model of each bike ready to go. <span class="blk">Give each ride a nickname so it&rsquo;s easy to find.</span></p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">02 / Smarter search</span>
+            <span class="auth-cardnum">2 / Smarter search</span>
             <h3>Check your ride. Find your parts.</h3>
             <p>Select one or several bikes with a checkbox. See matching parts grouped by bike so you know which ride each part fits. <span class="blk">Confirm fitment with the retailer before buying.</span></p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">03 / Rider feedback</span>
+            <span class="auth-cardnum">3 / Rider feedback</span>
             <h3>Rate your retailer</h3>
             <p>Share your experience and a one-to-five-star rating. Every review goes to Bagger McGee for approval before it appears publicly.</p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">04 / Saved parts</span>
+            <span class="auth-cardnum">4 / Saved parts</span>
             <h3>Keep a build list</h3>
             <p>Save parts you&rsquo;re considering and organize them by bike. <span class="blk">Pick up your next project where you left off.</span></p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">05 / Saved searches</span>
+            <span class="auth-cardnum">5 / Saved searches</span>
             <h3>Skip the same setup</h3>
             <p>Keep your favorite searches and filters handy for next time.</p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">06 / Recent comparisons</span>
+            <span class="auth-cardnum">6 / Recent comparisons</span>
             <h3>Come back to your shortlist</h3>
             <p>Return to parts and retailers you&rsquo;ve compared without starting from scratch.</p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">07 / Price alerts</span>
+            <span class="auth-cardnum">7 / Price alerts</span>
             <h3>Catch the drop. Not the chase.</h3>
             <p>Watch a part you want and get a heads-up when the price moves. Set it once, get back to riding.</p>
           </div>
           <div class="disc-card auth-card">
-            <span class="auth-cardnum">08 / Member newsletter</span>
+            <span class="auth-cardnum">8 / Member newsletter</span>
             <h3>Coupons in every issue.</h3>
             <p>The weekly rider email always carries exclusive member-only coupons - plus new parts and price drops worth a look.</p>
           </div>
         </div>
+      </div>
       </div>
 
     </div>
@@ -1350,6 +1367,26 @@ document.querySelectorAll('.faq details').forEach(function(d){
   if(lf){ lf.addEventListener('submit',function(e){ e.preventDefault(); toast('Demo - no credentials are transmitted or saved.'); }); }
   var sf=document.getElementById('signupForm');
   if(sf){ sf.addEventListener('submit',function(e){ e.preventDefault(); toast('Demo - no account is created in this preview.'); }); }
+  /* ---- garage bike catalog: same database as the parts search (Oct 22 2026) ---- */
+  var BIKES={"Harley-Davidson":{"CVO":[["CVO Electra Glide Std FLHTSEI","2001-2003"],["CVO FXR2 / FXR3 / FXR4","1999"],["CVO Limited FLHTKSE","2014-2026"],["CVO Pan America RA1250CVO","2023-2026"],["CVO Road Glide Custom FLTRSEI","2002-2004"],["CVO Road Glide FLTRXSE","2015-2026"],["CVO Road Glide Limited FLHTKSE2","2020-2026"],["CVO Road Glide ST FLTRKSE","2022-2026"],["CVO Road King FLHRSE","2002,2007,2009,2011,2014"],["CVO Softail Convertible FLSTSE","2010-2011"],["CVO Softail Deluxe FLSTNSE","2012-2013"],["CVO Softail Deuce FXSTDSE","2001-2006"],["CVO Street Glide FLHXSE","2010-2026"],["CVO Tri Glide FLHTCUTGSE","2012-2026"],["CVO Ultra Classic FLHTCUSE","2006-2013"],["CVO V-Rod VRSCSE","2005-2006"]],"Dyna":[["FXD Dyna Super Glide","1991-1996,1999-2010"],["FXDB Dyna Sturgis","1991"],["FXDB Street Bob","2006-2017"],["FXDC Dyna Glide Custom","1992-1993,2005-2009"],["FXDF Fat Bob","2008-2017"],["FXDI Dyna Super Glide EFI","2004-2005"],["FXDL Dyna Low Rider","1993-2009,2014-2017"],["FXDLS Low Rider S","2016-2017"],["FXDS-CON Dyna Convertible","1994-2000"],["FXDWG Dyna Wide Glide","1993-2017"],["FXDX Dyna Super Glide Sport","1999-2005"],["FXDXT Dyna Super Glide T-Sport","2001-2003"]],"Electric / LiveWire":[["FLHX LiveWire (H-D brand)","2019-2020"]],"FXR":[["FXLR Low Rider Custom","1990-1994"],["FXR Super Glide","1990-1994"],["FXRS Low Glide","1990-1992"],["FXRS-CON Low Rider Convertible","1991-1993"],["FXRS-SP Low Rider Sport","1990-1992"],["FXRT Sport Glide","1990-1992"]],"Pan America":[["RA1250 Pan America","2021-2026"],["RA1250CVO CVO Pan America","2023-2026"],["RA1250S Pan America Special","2021-2026"]],"Revolution Max Cruiser":[["RH1250S Sportster S","2021-2026"],["RH975 Nightster","2022-2026"],["RH975S Nightster Special","2023-2025"]],"Softail (Legacy)":[["FLST Heritage Softail","1990"],["FLSTC Heritage Softail Classic","1990-2017"],["FLSTF Fat Boy","1990-2017"],["FLSTFB Fat Boy Lo","2010-2016"],["FLSTFBS Fat Boy S","2016-2017"],["FLSTN Softail Deluxe","1993-2017"],["FXCW Rocker","2008-2009"],["FXCWC Rocker C","2008-2010"],["FXSB Breakout","2013-2017"],["FXSE CVO Pro Street Breakout","2016-2017"],["FXST Softail Standard","1990,2000-2007"],["FXSTB Night Train","1998-2009"],["FXSTC Softail Custom","1990-1999"],["FXSTD Softail Deuce","2000-2007"],["FXSTS Springer Softail","1990-2006"],["FXSTSB Bad Boy","1995-1997"]],"Softail (M8)":[["FLFB Fat Boy 107","2018-2019"],["FLFBS Fat Boy 114","2018-2026"],["FLHCS Heritage Classic 114","2018-2026"],["FLSB Sport Glide","2018-2021"],["FLSL Softail Slim","2018-2020"],["FLSTN Deluxe (M8)","2018-2026"],["FXBB Street Bob 107","2018-2020"],["FXBBS Street Bob 114","2021-2022"],["FXBR Breakout","2022-2026"],["FXBRS Breakout 114","2018-2021"],["FXDR 114","2019-2020"],["FXFB Fat Bob 107","2018-2019"],["FXFBS Fat Bob 114","2018-2026"],["FXLR Low Rider","2018-2022"],["FXLRS Low Rider S","2020-2026"],["FXLRST Low Rider ST","2022-2026"],["FXST Softail Standard (M8)","2018-2020"]],"Sportster":[["XL 1200C Custom","1996-2019"],["XL 1200CX Roadster","2016-2020"],["XL 1200L Low","2006-2011"],["XL 1200N Nightster","2007-2012"],["XL 1200R Roadster","2004-2008"],["XL 1200S Sport","1996-2003"],["XL 1200T SuperLow 1200T","2014-2016"],["XL 1200V Seventy-Two","2012-2017"],["XL 1200X Forty-Eight","2010-2021"],["XL 1200XS Forty-Eight Special","2018-2019"],["XL 883","2004-2010"],["XL 883C Custom","1999-2010"],["XL 883L SuperLow","2005-2021"],["XL 883N Iron 883","2009-2021"],["XL 883R Roadster","2002-2008"],["XLH 1200","1990-2003"],["XLH 883","1990-2003"],["XLH 883 Deluxe","1990-1995"],["XLH 883 Hugger","1990-2003"],["XR 1200","2008-2010"],["XR 1200X","2010-2012"]],"Street":[["XG500 Street 500","2015-2021"],["XG750 Street 750","2015-2021"],["XG750A Street Rod","2017-2020"]],"Touring":[["FLHR Road King","1994-2026"],["FLHRC Road King Classic","1998-2013"],["FLHRS Road King Custom","2004-2007"],["FLHT Electra Glide Standard","1990-2009"],["FLHTC Electra Glide Classic","1990-2013"],["FLHTCU Ultra Classic EG","1990-2013"],["FLHTCUTG Tri Glide Ultra","2009-2026"],["FLHTK Ultra Limited","2010-2026"],["FLHTKL Ultra Limited Low","2015-2019"],["FLHX Street Glide","2006-2026"],["FLHXS Street Glide Special","2015-2026"],["FLHXXX Street Glide Trike","2010-2013"],["FLRTCU Road Glide Ultra Classic","2014-2019"],["FLT Tour Glide","1990-1995"],["FLTR Road Glide","1998-2000"],["FLTRI Road Glide","2001-2009"],["FLTRK Road Glide Limited","2020-2026"],["FLTRU Road Glide Ultra","2011-2019"],["FLTRX Road Glide Custom","2010-2013"],["FLTRXS Road Glide Special","2015-2026"]],"V-Rod / VRSC":[["VRSCA V-Rod","2002-2006"],["VRSCAW V-Rod","2007-2011"],["VRSCB V-Rod (Black)","2004-2005"],["VRSCD Night Rod","2006-2008"],["VRSCDX Night Rod Special","2007-2017"],["VRSCF V-Rod Muscle","2009-2017"],["VRSCR Street Rod","2006-2007"],["VRSCX Screamin Eagle V-Rod","2008"]]},"Indian":{"Cruiser":[["101 Scout","2026"],["Chief","1999-2003,2007-2011,2018,2021-2025"],["Chief Bobber","2021-2025"],["Chief Bobber Dark Horse","2021-2025"],["Chief Bomber","2010"],["Chief Centennial Edition","2000"],["Chief Classic","2014-2019"],["Chief Classic Dark Horse","2016"],["Chief Dark Horse","2011,2020-2026"],["Chief Thunder","2003"],["Chief Vintage","2008,2014"],["Scout","2001-2003,2015-2025"],["Scout Bobber","2018-2026"],["Scout Bobber 125th Anniversary Edition","2026"],["Scout Bobber ABS","2019-2023"],["Scout Bobber Twenty","2020-2023"],["Scout Classic","2024-2026"],["Scout Rogue","2022-2023"],["Scout Rogue Sixty","2022-2023"],["Scout Sixty","2016-2023"],["Scout Sixty Classic","2026"],["Spirit","2001-2003"],["Sport Chief","2023"],["Sport Scout","2024-2026"],["Sport Scout Sixty","2024-2025"],["Sport Scout Sixty Base","2026"],["Sport Scout Sixty Limited","2026"],["Super Chief","2022-2024"],["Super Chief Limited","2022-2025"],["Super Chief Limited / Dark Horse","2026"],["Super Scout","2024-2025"],["Super Scout Base","2026"],["Super Scout Limited + Tech","2025"],["Vintage Dark Horse","2021"]],"Sport":[["FTR","2022-2023"],["FTR 1200","2019-2021,2024-2025"],["FTR 1200 R Carbon","2021,2024-2025"],["FTR 1200 Rally","2020"],["FTR 1200 S","2019-2021,2024-2025"],["FTR Championship Edition","2023"],["FTR R Carbon","2022-2023"],["FTR Rally","2021-2025"],["FTR S","2022-2023"],["FTR Sport","2026"]],"Touring":[["Challenger","2020-2026"],["Challenger Dark Horse","2020-2026"],["Challenger Dark Horse with PowerBand Audio","2026"],["Challenger Elite","2023-2025"],["Challenger Limited","2020-2025"],["Chief Roadmaster","2002-2003,2009-2011"],["Chief Vintage","2009-2011,2015-2020,2026"],["Chieftain","2014-2019,2021-2024"],["Chieftain Classic","2020"],["Chieftain Dark Horse","2016-2026"],["Chieftain Elite","2019-2025"],["Chieftain Limited","2017-2026"],["Pursuit 112 Dark Horse","2026"],["Pursuit 112 Dark Horse with PowerBand Audio","2026"],["Pursuit 112 Limited","2026"],["Pursuit 112 Limited with PowerBand Audio","2026"],["Pursuit Dark Horse","2021-2025"],["Pursuit Dark Horse Premium","2023-2025"],["Pursuit Limited","2021-2025"],["Pursuit Limited Premium","2023-2025"],["Roadmaster","2015-2024"],["Roadmaster Classic","2017"],["Roadmaster Dark Horse","2018-2025"],["Roadmaster Elite","2018"],["Roadmaster Limited","2021-2025"],["Sport Chief RT","2026"],["Springfield","2016-2019,2021-2024"],["Springfield Dark Horse","2017-2025"]],"Youth Electric":[["eFTR Mini","2024"]]}};
+  (function(){
+    var mk=document.getElementById('gkMake'), y=document.getElementById('gkYear'), md=document.getElementById('gkModel');
+    if(!mk||!y||!md) return;
+    function expand(rs){ var out=[]; rs.split(',').forEach(function(r){ if(r.indexOf('-')<0){ out.push(+r); } else { var p=r.split('-'); for(var yy=+p[0]; yy<=+p[1]; yy++) out.push(yy); } }); return out; }
+    function yearsFor(make){ var s={}; for(var f in BIKES[make]){ BIKES[make][f].forEach(function(m){ expand(m[1]).forEach(function(yy){ s[yy]=1; }); }); } return Object.keys(s).map(Number).sort(function(a,b){ return b-a; }); }
+    function fillModels(sel){ var make=mk.value, yr=+y.value; md.innerHTML='';
+      for(var f in BIKES[make]){ var ms=BIKES[make][f].filter(function(m){ return expand(m[1]).indexOf(yr)>-1; }); if(!ms.length) continue;
+        var og=document.createElement('optgroup'); og.label=f;
+        ms.forEach(function(m){ var o=document.createElement('option'); o.textContent=m[0]; if(m[0]===sel) o.selected=true; og.appendChild(o); });
+        md.appendChild(og); }
+      var ph=document.createElement('option'); ph.value=''; ph.textContent='Select model';
+      if(!sel) ph.selected=true;
+      md.insertBefore(ph, md.firstChild); }
+    function fillYears(sel){ var ys=yearsFor(mk.value); y.innerHTML=''; ys.forEach(function(yy){ var o=document.createElement('option'); o.textContent=yy; o.value=yy; if(yy===sel) o.selected=true; y.appendChild(o); }); }
+    mk.addEventListener('change', function(){ fillYears(); fillModels(); });
+    y.addEventListener('change', function(){ fillModels(); });
+    fillYears(2024); fillModels('Road Glide');
+  })();
   var gkAdd=document.getElementById('gkAdd');
   if(gkAdd){
     gkAdd.addEventListener('click',function(){
@@ -1378,5 +1415,16 @@ document.querySelectorAll('.faq details').forEach(function(d){
 })();
 </script>
 
+<style id="lbTopCss">.lb-top{width:36px;height:36px;border-radius:10px;border:1px solid rgba(244,237,225,.35);background:#f4ede1;color:#2E4A72;font:700 10px/1 Oswald,'Arial Narrow',sans-serif;letter-spacing:.09em;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:2px 2px 5px rgba(27,44,71,.18),inset 1px 1px 1px rgba(255,255,255,.65),inset -1px -1px 2px rgba(27,44,71,.07);opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .25s,transform .25s;position:relative;margin-left:14px;flex:0 0 auto}.lb-top.show{opacity:1;pointer-events:auto;transform:none}.lb-top:hover{transform:translateY(-1px);box-shadow:3px 3px 7px rgba(27,44,71,.24),inset 1px 1px 1px rgba(255,255,255,.7)}.lb-top:active{box-shadow:inset 2px 2px 4px rgba(27,44,71,.25)}.lb-top::after{content:'Take me to the top!';position:absolute;top:calc(100% + 8px);right:0;background:#2E4A72;color:#f4ede1;font:600 11px/1.2 Arial,sans-serif;letter-spacing:0;padding:7px 10px;border-radius:8px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s;z-index:1200}.lb-top:hover::after,.lb-top:focus-visible::after{opacity:1}@media(max-width:900px){.lb-top{width:34px;height:34px;margin-left:8px}}  /* MEMBERS ONLY diagonal lock on member features (Oct 22 2026) */
+  .mo-lock{position:relative;overflow:hidden}
+  .mo-body{opacity:.45;filter:grayscale(.45);pointer-events:none;user-select:none}
+  .mo-ribbon{position:absolute;top:50%;left:-6%;width:112%;transform:translateY(-50%) rotate(-8deg);background:#d33f27;color:#f4ede1;text-align:center;padding:12px 0;box-shadow:0 6px 16px rgba(27,44,71,.25);z-index:5}
+  .mo-ribbon span{font:700 13px/1 Oswald,'Arial Narrow',sans-serif;letter-spacing:.3em;text-transform:uppercase}
+  .mo-note{margin:12px 4px 0;font:600 13px/1.5 Arial,sans-serif;color:#2E4A72}
+  .mo-note a{color:#d33f27;font-weight:700}
+</style>
+<script id="lbTopJs">
+(function(){function lbInit(){var hdr=document.querySelector('.wrap.nav')||document.querySelector('header');if(!hdr)return;var b=document.createElement('button');b.type='button';b.className='lb-top';b.id='lbTopBtn';b.title='Take me to the top!';b.setAttribute('aria-label','Take me to the top!');b.textContent='TOP';var tg=hdr.querySelector('.menu-toggle');hdr.appendChild(b);var y=function(){b.classList.toggle('show',(window.scrollY||document.documentElement.scrollTop)>320)};window.addEventListener('scroll',y,{passive:true});y();b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});var lbHere=(window.lbPage||(location.pathname.split('/').pop()||'')).toLowerCase();document.addEventListener('click',function(ev){var a=ev.target&&ev.target.closest?ev.target.closest('a'):null;if(!a)return;var href=a.getAttribute('href')||'';if(!href||href.charAt(0)==='#')return;var base=href.split('#')[0].split('?')[0].split('/').pop().toLowerCase();var isBrand=a.classList.contains('brand');if(isBrand&&lbHere.indexOf('landing')>-1){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'});return}if(base&&base===lbHere&&!href.split('#')[1]&&(window.scrollY||document.documentElement.scrollTop)>320){ev.preventDefault();window.scrollTo({top:0,behavior:'smooth'})}},true)}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lbInit)}else{lbInit()}})();
+</script>
 </body>
 </html>
