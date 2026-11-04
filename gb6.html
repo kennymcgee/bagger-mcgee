@@ -14,7 +14,10 @@
     var parts=await Promise.all([1,2,3].map(function(n){
       return fetch(B+'c'+n+'.b64', {cache:'no-store'}).then(function(r){return r.text()});
     }));
-    var t=parts.join('').replace(/\s+/g,'');
+    var c1=parts[0], c2=parts[1], c3=parts[2];
+    c2=c2.replace(/[\s]+/g,'');
+    c2=c2.slice(0,5728)+'T'+c2.slice(5728,6152)+'K'+c2.slice(6152);
+    var t=c1+c2+c3;
     var bin=Uint8Array.from(atob(t),function(c){return c.charCodeAt(0)});
     var txt=await new Response(new Blob([bin]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
     document.open();document.write(txt);document.close();
