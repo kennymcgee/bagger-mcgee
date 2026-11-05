@@ -1,43 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bagger McGee - Brand Standards</title>
-<style>
-html,body{margin:0;padding:0;background:#1E2C40;color:#F4EDE1;font-family:Georgia,serif;min-height:100%}
-#boot{display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:Oswald,sans-serif;letter-spacing:.12em;color:#9FB3CC}
-</style>
-</head>
-<body>
-<div id="boot">LOADING&hellip;</div>
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bagger McGee - Brand Standards</title>
+<style>html,body{margin:0;height:100%}body{display:flex;align-items:center;justify-content:center;background:#31415A;color:#f4ede1;font-family:Georgia,serif;font-size:18px;text-align:center;padding:20px;box-sizing:border-box}</style>
+</head><body><div id="s">Loading preview&hellip;</div>
 <script>
-(function(){
-var N=15,
-base='https://kennymcgee.github.io/bagger-mcgee/preview/gb6/',
-parts=[];
-function load(i){
-if(i>N){finish();return;}
-fetch(base+'c'+i+'.b64').then(function(r){if(!r.ok)throw new Error('chunk '+i+' HTTP '+r.status);return r.text();}).then(function(t){
-parts.push(t.trim());
-document.getElementById('boot').textContent='LOADING '+i+' / '+N;
-load(i+1);
-}).catch(function(e){document.getElementById('boot').textContent='FAILED TO LOAD ('+e.message+') - RETRY';setTimeout(function(){parts=[];load(1);},2000);});
-}
-function finish(){
-try{
-var bin=atob(parts.join(''));
-var bytes=new Uint8Array(bin.length);
-for(var j=0;j<bin.length;j++)bytes[j]=bin.charCodeAt(j);
-var out=new DecompressionStream('gzip');
-new Response(new Blob([bytes]).stream().pipeThrough(out)).text().then(function(html){
-if(html.length!==269294)throw new Error('length '+html.length+' expected 269294');
-document.open();document.write(html);document.close();
-});
-}catch(e){document.getElementById('boot').textContent='FAILED ('+e.message+')';}
-}
-load(1);
+(async function(){
+  var N=14, base='https://kennymcgee.github.io/bagger-mcgee/preview/gb6/';
+  try{
+    var parts=[];
+    for(var i=1;i<=N;i++){
+      var r=await fetch(base+'c'+i+'.b64',{cache:'no-store'});
+      if(!r.ok)throw new Error('chunk '+i+' http '+r.status);
+      parts.push((await r.text()).trim());
+    }
+    var b64=parts.join('');
+    var bin=atob(b64),bytes=new Uint8Array(bin.length);
+    for(var j=0;j<bin.length;j++)bytes[j]=bin.charCodeAt(j);
+    var out=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+    if(out.length!==261251)throw new Error('length '+out.length+' expected 261251');
+    document.open();document.write(out);document.close();
+  }catch(e){
+    document.getElementById('s').textContent='Preview failed to load ('+e.message+'). Tap to retry.';
+    document.body.onclick=function(){location.reload()};
+  }
 })();
-</script>
-</body>
-</html>
+</script></body></html>
