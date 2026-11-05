@@ -12,7 +12,8 @@
       if(!r.ok)throw new Error('chunk '+i+' http '+r.status);
       parts.push((await r.text()).trim());
     }
-    var b64=parts.join('');
+    var b64=parts.join('').replace(/=/g,'');
+    b64+='='.repeat((-b64.length%4));
     var bin=atob(b64),bytes=new Uint8Array(bin.length);
     for(var j=0;j<bin.length;j++)bytes[j]=bin.charCodeAt(j);
     var out=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
