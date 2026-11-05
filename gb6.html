@@ -4,7 +4,7 @@
 </head><body><div id="s">Loading preview&hellip;</div>
 <script>
 (async function(){
-  var N=14, base='https://kennymcgee.github.io/bagger-mcgee/preview/gb6/r9/';
+  var N=14, base='https://kennymcgee.github.io/bagger-mcgee/preview/gb6/r10/';
   try{
     var parts=[];
     for(var i=1;i<=N;i++){
@@ -17,7 +17,7 @@
     var bin=atob(b64),bytes=new Uint8Array(bin.length);
     for(var j=0;j<bin.length;j++)bytes[j]=bin.charCodeAt(j);
     var out=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
-    if(out.length!==261293)throw new Error('length '+out.length+' expected 261293');
+    if(out.length!==261449)throw new Error('length '+out.length+' expected 261449');
     document.open();document.write(out);document.close();
   }catch(e){
     document.getElementById('s').textContent='Preview failed to load ('+e.message+'). Tap to retry.';
