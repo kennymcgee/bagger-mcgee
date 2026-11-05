@@ -4,12 +4,13 @@
 </head><body><div id="s">Loading preview&hellip;</div>
 <script>
 (async function(){
-  var N=14, base='https://kennymcgee.github.io/bagger-mcgee/preview/gb6/r10/';
+  var names=['c1','c2','c3','c4','c5','c6','c7a','c7b','c8','c9','c10','c11','c12','c13a','c13b','c14'],
+      base='https://kennymcgee.github.io/bagger-mcgee/preview/gb6/r10/';
   try{
     var parts=[];
-    for(var i=1;i<=N;i++){
-      var r=await fetch(base+'c'+i+'.b64',{cache:'no-store'});
-      if(!r.ok)throw new Error('chunk '+i+' http '+r.status);
+    for(var i=0;i<names.length;i++){
+      var r=await fetch(base+names[i]+'.b64',{cache:'no-store'});
+      if(!r.ok)throw new Error(names[i]+' http '+r.status);
       parts.push((await r.text()).trim());
     }
     var b64=parts.join('').replace(/=/g,'');
