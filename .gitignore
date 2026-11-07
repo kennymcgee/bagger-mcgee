@@ -76,6 +76,7 @@ web_modules/
 
 # Next.js build output
 .next
+.next-review
 out
 
 # Nuxt.js build / generate output
@@ -141,3 +142,13 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+.vercel/
+.database-migration-result.json
+local-imports/
+.next-decisions
+.next-corrections
+.next-approvals
+.next-database-review
+.review-database-result.json
+.next-upload

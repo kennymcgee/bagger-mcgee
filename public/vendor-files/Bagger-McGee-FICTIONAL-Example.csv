@@ -1,0 +1,4 @@
+vendorSku,name,brandName,manufacturerPartNumber,variantAttributes,destinationUrl,itemPrice,currency,quantity,origin,condition
+DEMO-001,"FICTIONAL touring seat, black",Example Parts,DEMO-SEAT-001,"{""finish"":""black""}",https://example.com/fictional-seat,199.00,USD,1,aftermarket,new
+DEMO-002,"FICTIONAL touring seat, brown",Example Parts,DEMO-SEAT-002,"{""finish"":""brown""}",https://example.com/fictional-seat-brown,209.50,USD,1,aftermarket,new
+DEMO-003,FICTIONAL trim piece,Example Parts,DEMO-TRIM-003,{},https://example.com/fictional-trim,39.95,USD,1,,
