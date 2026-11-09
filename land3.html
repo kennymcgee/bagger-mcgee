@@ -8,7 +8,7 @@
     var page=await (await fetch('https://raw.githubusercontent.com/kennymcgee/bagger-mcgee/main/bagger-mcgee-landing.html',{cache:'no-store'})).text();
     var names=["p1", "p2"],parts=[];
     for(var i=0;i<names.length;i++){
-      var r=await fetch('https://kennymcgee.github.io/bagger-mcgee/preview/land3/r1/'+names[i]+'.b64',{cache:'no-store'});
+      var r=await fetch('https://kennymcgee.github.io/bagger-mcgee/preview/land3/r2/'+names[i]+'.b64',{cache:'no-store'});
       if(!r.ok)throw new Error(names[i]+' http '+r.status);
       parts.push((await r.text()).trim());
     }
@@ -22,7 +22,8 @@
     var reps=[
       ['family=Montserrat:wght@700;800&family=Inter','family=Montserrat:wght@700;800&family=Onest:wght@700;800;900&family=Inter',1],
       ['<a class="btn mold mold-circle" href="bagger-mcgee-get-listed-v6.html">','<a class="btn mold mold-circle compact-cta" href="bagger-mcgee-get-listed-v6.html">',1],
-      ['<a class="mold mold-circle" href="bagger-mcgee-get-listed-v6.html">','<a class="mold mold-circle compact-cta" href="bagger-mcgee-get-listed-v6.html">',1]
+      ['<a class="mold mold-circle" href="bagger-mcgee-get-listed-v6.html">','<a class="mold mold-circle compact-cta" href="bagger-mcgee-get-listed-v6.html">',1],
+      ['<h1>Search less,<br><span class="muted">ride</span> <span class="accent">more.</span></h1>','<h1><span class="nw">Search less,</span><br><span class="nw"><span class="muted">ride</span> <span class="accent">more.</span></span></h1>',1]
     ];
     for(var q=0;q<reps.length;q++){
       var c=page.split(reps[q][0]).length-1;
@@ -32,10 +33,15 @@
     var c2=page.split('background:var(--navy)"></i>').length-1;
     if(c2!==3)throw new Error('bars count '+c2);
     page=page.split('background:var(--navy)"></i>').join('background:var(--slate-light)"></i>');
+    var marks=page.match(/<img class="brand-mark" src="data:image\/png;base64,[^"]+"/g);
+    if(!marks||marks.length!==3)throw new Error('brand marks '+(marks?marks.length:0));
+    var pl=marks.map(function(s){return s.replace(/^.*base64,/,'').replace(/"$/,'');});
+    if(pl[1]!==pl[2])throw new Error('masters differ');
+    page=page.replace(pl[0],pl[2]);
     var layer='<style>\n'+skin+'\n</style>\n<style>\n'+l2+'\n</style>\n</head>';
     if(page.split('</head>').length!==2)throw new Error('head count');
     page=page.replace('</head>',layer);
-    if(page.length!==210834)throw new Error('length '+page.length+' expected 210834');
+    if(page.length!==212740)throw new Error('length '+page.length+' expected 212740');
     document.open();document.write(page);document.close();
   }catch(e){
     document.getElementById('s').textContent='Preview failed to load ('+e.message+'). Tap to retry.';
